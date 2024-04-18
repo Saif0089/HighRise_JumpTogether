@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:hrc="Highrise.Client"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hrc:UIWorldInfoVoice class="world-info-voice">
+    <VisualElement class="world-info-voice__content rtl-reverse">
+      <hr:UIImage class="icon-voice"/>
+      <VisualElement class="world-info-voice__text">
+        <hr:UILabel name="_label" key="enable_voice"/>
+        <hr:VoiceTimeRemaining text="52:00 remaining"/>
+      </VisualElement>
+      <hr:UIImage name="_reportImage" class="icon-report"/>
+      <hr:UIImage name="_speakerImage" class="icon-sound"/>
+    </VisualElement>
+  </hrc:UIWorldInfoVoice>
+
+</UXML>

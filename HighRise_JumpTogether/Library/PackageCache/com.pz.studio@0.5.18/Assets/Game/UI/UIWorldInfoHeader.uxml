@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:hrc="Highrise.Client"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hrc:UIWorldInfoHeader class="world-info-header-cell">
+    <VisualElement class="world-info-header-cell__content rtl-reverse">
+      <VisualElement class="world-info-header-cell__details">
+        <hr:UILabel name="_worldName" text="Name"/>
+        <hr:UILabel name="_worldOwner" text="by Me"/>
+      </VisualElement>
+      <Image class="icon-share" name="_shareButton"/>
+      <Image class="icon-report" name="_reportButton" />
+      <Image class="icon-info" name="_infoButton"/>
+    </VisualElement>
+  </hrc:UIWorldInfoHeader>
+
+</UXML>

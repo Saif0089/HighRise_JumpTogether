@@ -1,0 +1,13 @@
+@import url("/Packages/com.pz.studio/Runtime/Scripts/UIPlayer.uxml") 
+    url("/Packages/com.pz.studio/Assets/Game/Core/UI/Views/World/UIRoomInfoButton.uss")
+    url("/Packages/com.pz.studio/Assets/Game/Indicators/Indicators.uss")
+    url("/Packages/com.pz.studio/Assets/Game/Core/UI/Views/Chat/UIChatEvent.uss");
+
+@import url("/Packages/com.pz.studio/Assets/Game/Core/UI/Item/CoreItem.uxmlf");
+@import url("/Packages/com.pz.studio/Assets/Game/Core/UI/Views/TextCommands/TextCommands.uxmlf");
+@import url("/Packages/com.pz.studio/Assets/Game/Core/UI/Views/Chat/Chat.uxmlf");
+@import url("/Packages/com.pz.studio/Assets/Game/Core/UI/Views/TrustAndSafety/TrustAndSafety.uxmlf");
+@import url("/Packages/com.pz.studio/Assets/Game/Core/UI/Views/Profile/CoreProfile.uxmlf");
+@import url("/Packages/com.pz.studio/Assets/Game/Core/UI/Controls/CoreControls.uxmlf");
+
+@import url("/Packages/com.pz.studio/Assets/Game/UI/GameClient.uxmlf");

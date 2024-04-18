@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UIDatePicker class="date-picker">
+    <VisualElement class="date-picker-container">
+      <hr:UILabel class="date-picker-info" key="day"/>
+      <hr:UIDropdownField class="date-picker-dropdown" name="_dayDropdown"/>
+    </VisualElement>
+    <VisualElement class="date-picker-container">
+      <hr:UILabel class="date-picker-info" key="month"/>
+      <hr:UIDropdownField class="date-picker-dropdown" name="_monthDropdown"/>
+    </VisualElement>
+    <VisualElement class="date-picker-container">
+      <hr:UILabel class="date-picker-info" key="year"/>
+      <hr:UIDropdownField class="date-picker-dropdown" name="_yearDropdown"/>
+    </VisualElement>
+  </hr:UIDatePicker>
+
+</UXML>

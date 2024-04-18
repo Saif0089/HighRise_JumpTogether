@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -224059734, guid: 30a4c7dce0b6891478396efa6bd2a6d0, type: 3 }
+  m_Name: PerformanceManager
+  m_EditorClassIdentifier: 
+  _memorySettings:
+  - Name: Low
+    Enabled: 1
+    _minimumMemoryInGB: 0
+    AvatarWorldRenderQuality: 1
+    _assetCacheSizeInMB: 32
+    _maxCachedAssetSizeInMB: 4
+  - Name: Medium
+    Enabled: 1
+    _minimumMemoryInGB: 2.9
+    AvatarWorldRenderQuality: 2
+    _assetCacheSizeInMB: 32
+    _maxCachedAssetSizeInMB: 4
+  - Name: High
+    Enabled: 1
+    _minimumMemoryInGB: 3.9
+    AvatarWorldRenderQuality: 2
+    _assetCacheSizeInMB: 128
+    _maxCachedAssetSizeInMB: 8
+  _lowPower:
+    UpdateRate: 2
+    RenderInterval: 2
+    nonAggressiveMinFPS: 20
+  _animation:
+    UpdateRate: 2
+    RenderInterval: 1
+    nonAggressiveMinFPS: 60
+  _interaction:
+    UpdateRate: 1
+    RenderInterval: 1
+    nonAggressiveMinFPS: 120
+  _loading:
+    UpdateRate: 1
+    RenderInterval: 1
+    nonAggressiveMinFPS: 120
+  _criticalAnimation:
+    UpdateRate: 1
+    RenderInterval: 1
+    nonAggressiveMinFPS: 120
+  _renderScaleLow: 0.25
+  _renderScaleMedium: 0.5
+  _renderScaleHigh: 1

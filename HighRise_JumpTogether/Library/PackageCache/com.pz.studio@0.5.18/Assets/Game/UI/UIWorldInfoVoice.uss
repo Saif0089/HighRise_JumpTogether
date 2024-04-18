@@ -1,0 +1,96 @@
+.world-info-voice {
+    margin-top: 8px;
+}
+
+.world-info-voice__content {
+    border-radius: 12px;
+    background-color: var(--color-accents-secondary-25);
+    padding: 8px;
+    height: 52px;
+    color: var(--color-accents-secondary);
+}
+
+.world-info--voice-enabled .world-info-voice__content {
+    background-color: var(--color-accents-secondary);
+    color: var(--color-fishbase-eel);
+}
+
+.world-info-voice .icon-voice {
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+    background-color: var(--color-accents-secondary-25);
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 6px;
+    --unity-image-tint-color: var(--color-accents-secondary);
+}
+
+.world-info--voice-enabled .world-info-voice .icon-voice {
+    background-color: var(--color-fishbase-eel);
+}
+
+.world-info-voice .icon-report {
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+    background-color: var(--color-fishbase-eel-25);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 8px;
+    padding: 6px;
+    --unity-image-tint-color: var(--color-fishbase-eel);
+    display: none;
+}
+
+.rtl .world-info-voice .icon-report {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.world-info--voice-enabled .icon-report {
+    display: flex;
+}
+
+.world-info-voice__text {
+    margin-left: 8px;
+    flex-grow: 1;
+}
+
+.rtl .world-info-voice__text {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.world-info-voice__text .label {
+    padding: 0;
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    -unity-font-style: bold;
+}
+
+.world-info-voice__text VoiceTimeRemaining {
+    padding: 0px;
+    margin: 0px;
+    font-size: var(--font-size-s);
+    display: none;
+}
+
+.world-info--voice-enabled VoiceTimeRemaining {
+    display: flex;
+}
+
+.world-info-voice .icon-sound {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding: 6px;
+    background-color: var(--color-fishbase-eel-25);
+    border-radius: 12px;
+    --unity-image-tint-color: var(--color-fishbase-eel);
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <VisualElement class="create-portal-upload">
+    <Label name="_titleLabel" text="Ready to Publish World?" />
+    <Label name="_worldLabel" text="World" />
+    <DropdownField name="_worldDropdown" />
+    <VisualElement name="_separator" />
+    <Label name="_infoLabel" text="Once you upload, your World will be saved as a draft. You and other users you grant permission to can then access the World in the Highrise App.\n\nTo publish the World to the public, you must release a build via the Highrise Creator Portal." />
+    <Button name="_uploadButton" class="button-primary">
+      <Label name="_uploadLabel" text="Upload" />
+    </Button>
+    <Button name="_cancelButton" class="button-outline">
+      <Label name="_cancelLabel" text="Cancel" />
+    </Button>
+  </VisualElement>
+</UXML>

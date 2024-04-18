@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UIActionSheet class="action-sheet" picking-mode="Ignore">
+    <hr:UIBottomDrawer name="_drawer" expanded="true" half-expandable="false" animates-parent-background="true" picking-mode="Ignore">
+      <VisualElement class="action-sheet-main-container">
+        <VisualElement class="action-sheet-handle"/>
+        <VisualElement name="_container" class="action-sheet-container"/>
+      </VisualElement>
+    </hr:UIBottomDrawer>
+  </hr:UIActionSheet>
+
+</UXML>

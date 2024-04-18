@@ -1,0 +1,65 @@
+.virtual-player {
+    flex-direction: column-reverse;
+    background-color: var(--unity-colors-default-background);
+    flex-grow: 1;
+}
+
+.virtual-player #_viewContainer {
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.virtual-player #_transformContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform-origin: 0 0;
+}
+
+.virtual-player #_view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.virtual-player UIPlayer
+{
+    flex-grow: 1;
+}
+
+.virtual-player #_toolbar {
+    background-color: var(--unity-colors-tab-background-checked);
+    border-bottom-width: .5px;
+    border-bottom-color: var(--unity-colors-toolbar-border);
+    flex-direction: row;
+    height: 20px;
+}
+
+.virtual-player #_toolbar > Button {
+    background-color: var(--unity-colors-toolbar_button-background);
+    border-width: 0;
+    border-left-width: 0.5px;
+    border-right-width: 0.5px;
+    border-color: var(--unity-colors-toolbar-border);
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0;
+    border-radius: 0;
+    color: var(--unity-colors-toolbar_button-text);
+}
+
+.virtual-player #_toolbar > Button:checked {
+    background-color: var(--unity-colors-toolbar_button-background-checked);
+    color: var(--unity-colors-toolbar_button-text-checked);
+}
+
+
+.virtual-player #_connect,
+.virtual-player #_disconnect,
+.virtual-player #_autoConnect {
+    min-width: 110px;
+}

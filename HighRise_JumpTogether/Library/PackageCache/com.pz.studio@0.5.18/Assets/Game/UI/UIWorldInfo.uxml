@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:hrc="Highrise.Client"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hrc:UIWorldInfo class="world-info">
+    <hr:UICollection name="_collectionView">
+      <!-- Header-->
+      <hr:UICollectionSection name="_header">
+        <hrc:UIWorldInfoHeader name="_infoHeader"/>
+        <hrc:UIWorldInfoVoice name="_voiceButton"/>
+      </hr:UICollectionSection>
+
+      <!-- Player Count -->
+      <hr:UICollectionSection>
+        <VisualElement class="world-info-avatar-count rtl-reverse">
+          <Image class="icon-profile"/>
+          <hr:UILabel name="_playerCount"/>
+        </VisualElement>
+      </hr:UICollectionSection>
+      
+      <!-- Players -->
+      <hr:UICollectionSection name="_playersSection" hide-when-empty="true">
+        <hr:UICollectionCells layout="stack" layout-estimated-size="40" layout-spacing="4"/>
+      </hr:UICollectionSection>
+
+    </hr:UICollection>
+
+  </hrc:UIWorldInfo>
+  
+</UXML>

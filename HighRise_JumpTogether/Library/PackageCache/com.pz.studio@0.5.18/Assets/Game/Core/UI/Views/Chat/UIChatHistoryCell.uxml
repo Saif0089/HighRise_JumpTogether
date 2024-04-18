@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UIChatHistoryCell class="chat-history-cell">
+    <hr:UIUserThumbnail name="_thumbnail" class="user-thumbnail-small" online-indicator="false"/>
+    <VisualElement class="chat-history-cell__firstline">
+      <VisualElement class="chat-history-cell__middle rtl-reverse">
+        <hr:UILabel name="_username" class="chat-event-foreground"/>
+        <Label name="_time" class="text-body-13-regular"/>
+      </VisualElement>
+      <hr:UILabel name="_message" class="text-body-15-thin chat-event-foreground" mentionMode="TappableUrls"/>
+    </VisualElement>
+    
+  </hr:UIChatHistoryCell>
+
+</UXML>

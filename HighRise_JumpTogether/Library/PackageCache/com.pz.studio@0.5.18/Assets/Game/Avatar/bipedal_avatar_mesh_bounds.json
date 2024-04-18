@@ -1,0 +1,28 @@
+{
+  "root" : [
+      {"side" : "BackSide", "name" : "HairBackMedium", "x" : -68, "y" : -178, "width" : 138, "height" : 130},
+      {"side" : "BackSide", "name" : "HairBackTinyBraid", "x" : -43, "y" : -166, "width" : 97, "height" : 113},
+      {"side" : "BackSide", "name" : "HairBackXLong", "x" : -56, "y" : -175, "width" : 118, "height" : 179},
+      {"side" : "BackSide", "name" : "HairBackPony", "x" : -46, "y" : -175, "width" : 111, "height" : 159},
+      {"side" : "BackSide", "name" : "HairBackPigtails", "x" : -62, "y" : -173, "width" : 138, "height" : 165},
+      {"side" : "BackSide", "name" : "HairBackLong", "x" : -61, "y" : -193, "width" : 123, "height" : 168},
+      {"side" : "BackSide", "name" : "HairBackChinL", "x" : -58, "y" : -168, "width" : 112, "height" : 94},
+      {"side" : "FrontSide", "name" : "HairBackMedium", "x" : -70, "y" : -177, "width" : 122, "height" : 132},
+      {"side" : "FrontSide", "name" : "HairBackTinyBraid", "x" : -60, "y" : -163, "width" : 101, "height" : 111},
+      {"side" : "FrontSide", "name" : "HairBackXLong", "x" : -68, "y" : -173, "width" : 117, "height" : 180},
+      {"side" : "FrontSide", "name" : "HairBackPony", "x" : -85, "y" : -182, "width" : 125, "height" : 169},
+      {"side" : "FrontSide", "name" : "HairBackPigtails", "x" : -80, "y" : -175, "width" : 144, "height" : 163},
+      {"side" : "FrontSide", "name" : "HairBackLong", "x" : -69, "y" : -191, "width" : 121, "height" : 166},
+      {"side" : "FrontSide", "name" : "HairBackChinL", "x" : -59, "y" : -167, "width" : 102, "height" : 98},
+      {"side" : "BackSide", "name" : "HairFrontMedium", "x" : -49, "y" : -189, "width" : 101, "height" : 133},
+      {"side" : "BackSide", "name" : "HairFrontXLong", "x" : -47, "y" : -126, "width" : 29, "height" : 68},
+      {"side" : "BackSide", "name" : "HairFrontPony", "x" : -34, "y" : -159, "width" : 81, "height" : 88},
+      {"side" : "BackSide", "name" : "HairFrontLong", "x" : -46, "y" : -169, "width" : 88, "height" : 127},
+      {"side" : "BackSide", "name" : "HairFrontChinL", "x" : -46, "y" : -175, "width" : 93, "height" : 109},
+      {"side" : "FrontSide", "name" : "HairFrontMedium", "x" : -62, "y" : -185, "width" : 107, "height" : 132},
+      {"side" : "FrontSide", "name" : "HairFrontXLong", "x" : -50, "y" : -163, "width" : 79, "height" : 82},
+      {"side" : "FrontSide", "name" : "HairFrontPony", "x" : -58, "y" : -172, "width" : 86, "height" : 106},
+      {"side" : "FrontSide", "name" : "HairFrontLong", "x" : -52, "y" : -177, "width" : 96, "height" : 155},
+      {"side" : "FrontSide", "name" : "HairFrontChinL", "x" : -61, "y" : -175, "width" : 106, "height" : 109}
+  ]
+}

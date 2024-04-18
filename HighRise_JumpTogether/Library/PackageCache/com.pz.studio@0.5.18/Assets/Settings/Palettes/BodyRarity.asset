@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -316276260, guid: 30a4c7dce0b6891478396efa6bd2a6d0, type: 3 }
+  m_Name: BodyRarity
+  m_EditorClassIdentifier: 
+  _displayColorIndex: 0
+  _palettes:
+  - _colors:
+    - serializedVersion: 2
+      rgba: 4290762228
+    - serializedVersion: 2
+      rgba: 4289447145
+    - serializedVersion: 2
+      rgba: 4286086835
+    - serializedVersion: 2
+      rgba: 4289248230
+    - serializedVersion: 2
+      rgba: 4289377009
+    - serializedVersion: 2
+      rgba: 4294769916
+  - _colors:
+    - serializedVersion: 2
+      rgba: 4284500298
+    - serializedVersion: 2
+      rgba: 4284500298
+    - serializedVersion: 2
+      rgba: 4282791737
+    - serializedVersion: 2
+      rgba: 4282791737
+    - serializedVersion: 2
+      rgba: 4282791737
+    - serializedVersion: 2
+      rgba: 4282791737
+  - _colors:
+    - serializedVersion: 2
+      rgba: 4284644922
+    - serializedVersion: 2
+      rgba: 4284644922
+    - serializedVersion: 2
+      rgba: 4282931752
+    - serializedVersion: 2
+      rgba: 4282931752
+    - serializedVersion: 2
+      rgba: 4282931752
+    - serializedVersion: 2
+      rgba: 4282931752
+  - _colors:
+    - serializedVersion: 2
+      rgba: 4288900931
+    - serializedVersion: 2
+      rgba: 4288900931
+    - serializedVersion: 2
+      rgba: 4286204964
+    - serializedVersion: 2
+      rgba: 4286204964
+    - serializedVersion: 2
+      rgba: 4286204964
+    - serializedVersion: 2
+      rgba: 4286204964
+  - _colors:
+    - serializedVersion: 2
+      rgba: 4294873257
+    - serializedVersion: 2
+      rgba: 4294873257
+    - serializedVersion: 2
+      rgba: 4294534283
+    - serializedVersion: 2
+      rgba: 4294534283
+    - serializedVersion: 2
+      rgba: 4294534283
+    - serializedVersion: 2
+      rgba: 4294534283
+  - _colors:
+    - serializedVersion: 2
+      rgba: 4284797951
+    - serializedVersion: 2
+      rgba: 4284797951
+    - serializedVersion: 2
+      rgba: 4281380095
+    - serializedVersion: 2
+      rgba: 4281380095
+    - serializedVersion: 2
+      rgba: 4281380095
+    - serializedVersion: 2
+      rgba: 4281380095
+  - _colors:
+    - serializedVersion: 2
+      rgba: 4293913240
+    - serializedVersion: 2
+      rgba: 4293913240
+    - serializedVersion: 2
+      rgba: 4294494892
+    - serializedVersion: 2
+      rgba: 4294494892
+    - serializedVersion: 2
+      rgba: 4294494892
+    - serializedVersion: 2
+      rgba: 4294494892

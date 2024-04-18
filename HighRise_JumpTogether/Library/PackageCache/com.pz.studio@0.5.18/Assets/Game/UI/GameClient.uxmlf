@@ -1,0 +1,7 @@
+@import url("/Packages/com.pz.studio/Assets/Game/UI/UIWorldInfo.uxml"); 
+@import url("/Packages/com.pz.studio/Assets/Game/UI/UIWorldInfoHeader.uxml"); 
+@import url("/Packages/com.pz.studio/Assets/Game/UI/UIWorldInfoPlayer.uxml");
+@import url("/Packages/com.pz.studio/Assets/Game/UI/UIWorldInfoVoice.uxml");
+@import url("/Packages/com.pz.studio/Assets/Game/UI/UIWorldChat.uxml") 
+	url("/Packages/com.pz.studio/Assets/Game/Core/UI/Views/Chat/UIChat.uss");
+

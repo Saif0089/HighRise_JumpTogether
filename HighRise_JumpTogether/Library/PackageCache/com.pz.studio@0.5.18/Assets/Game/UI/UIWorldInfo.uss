@@ -1,0 +1,315 @@
+.world-info {
+    flex-grow: 1;
+}
+
+.world-info .collection-section {
+    padding: 8px;
+    padding-top: 0;
+}
+
+.world-info .collection {
+    flex-grow: 1;
+}
+
+/** Avatar Count **/
+
+.world-info-avatar-count {
+    height: 24px;
+    flex-direction: row;
+}
+
+.world-info-avatar-count .label {
+    color: var(--color-fishbase-salmon);
+    font-size: var(--font-size-s);
+    -unity-font-style: bold;
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4px;
+}
+
+.rtl .world-info-avatar-count .label {
+    margin-left: 0;
+    margin-right: 4px;
+}
+
+.world-info-avatar-count Image {
+    width: 16px;
+    height: 16px;
+    --unity-image-tint-color: var(--color-fishbase-salmon);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.world-info-avatar-count--spectators Image {
+    --unity-image: var(--image-icon-spectators);
+}
+
+
+/** Speakers Section **/
+
+.world-info-speakers-title {
+    align-items: center;
+    margin-bottom: 4px;
+    height: 24px;
+}
+
+.world-info-speakers-title .label {
+    color: var(--color-accents-secondary);
+    font-size: var(--font-size-s);
+    -unity-font-style: bold;
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4px;
+    -unity-text-align: middle-center;
+}
+
+.rtl .world-info-speakers-title .label {
+    margin-left: 0;
+    margin-right: 4px;
+}
+
+.world-info-speakers-title Image {
+    --unity-image: var(--image-icon-voice);
+    --unity-image-tint-color: var(--color-accents-secondary);
+    width: 16px;
+    height: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.world-info__speakers {
+    background-color: var(--color-accents-secondary-15);
+    border-radius: 12px;
+    padding-top: 8px;
+    padding-right: 0;
+    padding-left: 8px;
+    padding-bottom: 6px;
+}
+
+.rtl .world-info__speakers {
+    padding-right: 8px;
+    padding-left: 0;
+}
+
+/*
+
+    Room
+
+*/
+
+.world-info__room {
+    flex-direction: row;
+    padding: 16px;
+    flex-shrink: 0;
+}
+
+.world-info__room__image-mask {
+    border-radius: 12px;
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    background-color: var(--color-fishbase-eel);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#world-info__room__image {
+    width: 100%;
+    height: 100%;
+}
+
+.world-info__room__details {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 16px;
+}
+
+.rtl .world-info__room__details {
+    margin-left: 0;
+    margin-right: 16px;
+}
+
+.world-info__room__details .unity-label {
+    color: var(--color-fishbase-whitefish);
+}
+
+#world-info__room__name {
+    -unity-font-style: bold;
+}
+
+/* 
+
+    Avatars header
+
+*/
+
+.world-info__avatars-header {
+    flex-direction: row;
+    padding: 0 16px;
+    flex-shrink: 0;
+}
+
+.rtl .world-info__avatars-header {
+    flex-direction: row-reverse;
+}
+
+.world-info__avatars-header Image {
+    --unity-image: var(--icon-tab-profile);
+    width: 16px;
+    height: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.world-info__avatars-header .unity-label {
+    margin-top: auto;
+    margin-bottom: auto;
+    -unity-font-style: bold;
+}
+
+/*
+
+    Avatars
+
+*/
+
+#world-info__avatars {
+    flex-grow: 1;
+    padding: 16px 0;
+}
+
+.world-info__avatar {
+    flex-direction: row;
+    height: 72px;
+    padding: 4px 16px;
+    -unity-font-style: bold;
+}
+
+.rtl .world-info__avatar {
+    flex-direction: row-reverse;
+}
+
+.world-info__avatar__portrait-mask {
+    width: 60px;
+    height: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: var(--color-fishbase-eel);
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.world-info__avatar__portrait {
+    width: 100%;
+    height: 100%;
+}
+
+.world-info__avatar__name {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 16px;
+}
+
+.rtl .world-info__avatar__name {
+    margin-left: 0;
+    margin-right: 16px;
+}
+
+.world-info__avatar-mute {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 32px;
+    height: 32px;
+}
+
+.rtl .world-info__avatar-mute {
+    left: -8px;
+    right: auto;
+}
+
+/*
+    Room Boost
+ */
+
+.world-info__boost-container {
+    width: 100%;
+    position: absolute;
+    bottom: 19px;
+    align-items: center;
+    padding-bottom: var(--safe-area-bottom);
+}
+
+.world-info__boost {
+    height: 52px;
+    width: 52px;
+    border-radius: 20px;
+    background-color: var(--color-tertiary-strawberry);
+    justify-content: center;
+}
+
+.world-info__boost-count-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.world-info__boost-count-container UILabel {
+    color: var(--color-fishbase-whitefish);
+    -unity-font-style: bold;
+    font-size: 13px;
+}
+
+.world-info__boostProgress {
+    height: 62px;
+    width: 62px;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    --track-color: var(--color-tertiary-strawberry-25);
+    --progress-color: var(--color-fishbase-whitefish);
+    overflow: hidden;
+}
+
+.world-info .world-info-avatar {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.world-info__boost .icon-boost {
+    width: 32px;
+    height: 32px;
+    --unity-image-tint-color: var(--color-fishbase-eel);
+    align-self: center;
+}
+
+.world-info__boost--enabled .icon-boost {
+    width: 32px;
+    height: 32px;
+    --unity-image-tint-color: var(--color-fishbase-whitefish);
+}
+
+.world-info__boost--enabled-more-than-one .icon-boost {
+    width: 18px;
+    height: 18px;
+    --unity-image-tint-color: var(--color-fishbase-whitefish);
+}
+
+
+.world-info #_voiceButton{
+    display: none;
+}
+
+/*
+
+    Landscape
+
+*/
+
+.landscape .game .world-info {
+    width: 375px;
+    flex-shrink: 0;
+}

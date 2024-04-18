@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1818856561, guid: 30a4c7dce0b6891478396efa6bd2a6d0, type: 3 }
+  m_Name: Scenes
+  m_EditorClassIdentifier: 
+  _profile: {fileID: 2120372961430869811, guid: 7fabb6985e8e31a448104ad2587517f8,
+    type: 3}
+  _miniProfile: {fileID: 2120372961430869811, guid: d06c2319e1ab2c544a53f38c1485b88e,
+    type: 3}
+  _pose: {fileID: 7783315605468116216, guid: dc02b1e06648de14c9390b9d2939aa1c, type: 3}
+  _closet: {fileID: 6676352633414576734, guid: f29e805384540464aae747280ee05d02, type: 3}
+  _creator: {fileID: -1396620646962558650, guid: 5b10b836f96538744aa3c3e30651b635,
+    type: 3}
+  _creatorPortrait: {fileID: -1396620646962558650, guid: 9e430a0968a5349e78728bce4637f120,
+    type: 3}
+  _plazaCreator: {fileID: -1269262280663732904, guid: e255b9c948ecc4f278aacea0582dd24e,
+    type: 3}
+  _plazaCreatorPortrait: {fileID: -1269262280663732904, guid: e255b9c948ecc4f278aacea0582dd24e,
+    type: 3}
+  _feedTextPost: {fileID: 2120372961430869811, guid: 8e4ee26cb8d49a644b78f6963259d4c4,
+    type: 3}
+  _feedTextPostInverted: {fileID: 2120372961430869811, guid: 8539de400cb704d9381c5aedc2fa57f0,
+    type: 3}
+  _feedPoser: {fileID: 5855465952254613916, guid: 514033ace97c049008e6a9f58dae5c96,
+    type: 3}
+  _itemPreview: {fileID: 2120372961430869811, guid: 33fee03605f6642a586d33dfd10a8ac4,
+    type: 3}
+  _savedOutfit: {fileID: 2120372961430869811, guid: 1b7ff90c664a82c45b0c842d4f0b9b30,
+    type: 3}
+  _photoBooth: {fileID: 2875549852602046951, guid: bfa28e5bda52944ad908b3859bcb3b47,
+    type: 3}
+  _gachaAnimation: {fileID: 7441992179790752967, guid: f4c41416d723ce6428ecdb9b27ca3828,
+    type: 3}
+  _gachaAnimationCommon: {fileID: 6309474727268992945, guid: dac47ae08f35cdb4f8ccfd28c34ed08d,
+    type: 3}
+  _gachaAnimationUnCommon: {fileID: 5304341941640034093, guid: fabfceb3e3dbb2f41be1c52294238d72,
+    type: 3}
+  _gachaAnimationRare: {fileID: 1000435917731730384, guid: 633a5268f34a8b647a9c9ce06762a1ff,
+    type: 3}
+  _gachaAnimationEpic: {fileID: 1000435917731730384, guid: 1baa7eee01872fb479d7ae73fce72d4c,
+    type: 3}
+  _gachaAnimationLegendary: {fileID: 766905260563995628, guid: ddc4ba418fda4164a8d4803d41b3fd8e,
+    type: 3}
+  _gachaAnimationMythical: {fileID: 766905260563995628, guid: 1232b5812415ace4bae44f2c60ed661f,
+    type: 3}
+  _rewardAnimation: {fileID: 7441992179790752967, guid: 18c7caab7cd590842bd123ca4d0a3fb9,
+    type: 3}
+  _cardSwapAnimation: {fileID: 7441992179790752967, guid: 1284cfaa7dc20ea4c9224119bc4f4585,
+    type: 3}
+  _singleCardSwapAnimation: {fileID: 7441992179790752967, guid: 7a2036563c7d0034fb37bc9567e6ca5c,
+    type: 3}

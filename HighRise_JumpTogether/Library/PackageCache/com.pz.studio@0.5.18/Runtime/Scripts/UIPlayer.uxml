@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:hrs="Highrise.Studio"
+    xmlns:hrc="Highrise.Client"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hrs:UIPlayer class="player overlay">
+    <VisualElement name="_roomContainer">
+      <VisualElement name="_controller" class="overlay"/>
+      <hr:UIWorld name="_world" class="overlay" picking-mode="Ignore"/>
+      <VisualElement name="_indicators" class="overlay" picking-mode="Ignore"/>
+      <VisualElement name="_roomCustom" picking-mode="Ignore"/>
+      <VisualElement class="overlay"  picking-mode="Ignore">
+        <hrc:UIWorldChat name="_chat"/>  
+      </VisualElement>
+    </VisualElement>
+    <VisualElement name="_right">
+      <hr:UIRoomInfoButton name="_worldInfoButton"/>
+      <hrc:UIWorldInfo name="_worldInfo"/>
+    </VisualElement>
+    <VisualElement name="_loading"/>
+  </hrs:UIPlayer>
+
+</UXML>

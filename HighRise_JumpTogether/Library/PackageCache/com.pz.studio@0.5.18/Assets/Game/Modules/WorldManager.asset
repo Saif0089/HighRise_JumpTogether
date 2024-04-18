@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 92721503, guid: 5e99434f214126023bd8db55a8296c39, type: 3 }
+  m_Name: WorldManager
+  m_EditorClassIdentifier: 
+  _roomPrefab: {fileID: 7127176337648515834, guid: da7e4e30a9c975e4785e0b2fd48ab9c8,
+    type: 3}
+  _virtualPlayerPrefab: {fileID: 6543861146578120748, guid: f3cb2b3efa2fb634db6440a7fa37945c,
+    type: 3}
+  _characterPrefab: {fileID: 28693289246068282, guid: 257a642d7e8bdee4fb0dd92a56ff9b1b,
+    type: 3}
+  _characterRigPrefab: {fileID: 51647847697851632, guid: ff4420e1009ba24489cc8b542cc49ad6,
+    type: 3}

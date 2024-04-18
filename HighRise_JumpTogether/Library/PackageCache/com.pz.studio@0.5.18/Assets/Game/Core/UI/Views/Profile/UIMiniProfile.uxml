@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:hr="Highrise.UI"
+    xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UIMiniProfile class="overlay mini-profile">
+    <!-- Close Detection -->
+    <VisualElement name="mini-profile__close" class="overlay"/>
+
+    <!-- Mini-Profile -->
+    <hr:UIBottomDrawer name="_drawer" class="mini-profile__popup" expanded="true" half-expandable="false">
+
+      <!-- Reactions -->
+      <VisualElement name="mini-profile__reactions" >
+        <VisualElement class="mini-profile__reactions rtl-reverse">
+          <VisualElement name="_reactionsClap" >
+              <Image class="icon-reaction-clap"/>        
+          </VisualElement>
+          <VisualElement name="_reactionsHeart" >
+              <Image class="icon-reaction-heart"/>        
+          </VisualElement>
+          <VisualElement name="_reactionsThumbs" >
+              <Image class="icon-reaction-thumbs"/>        
+          </VisualElement>
+          <VisualElement name="_reactionsWave" >
+              <Image class="icon-reaction-wave"/>        
+          </VisualElement>
+          <VisualElement name="_reactionsWink" >
+              <Image class="icon-reaction-wink"/>        
+          </VisualElement>
+          <VisualElement name="_reactionsTip" >
+            <Image class="icon-reaction-tip"/>
+          </VisualElement>
+      </VisualElement>
+        <Image class="mini-profile__reactions-carrot"/>
+      </VisualElement>
+
+      <!-- Top -->
+      <VisualElement class="mini-profile__main">
+          <VisualElement class="mini-profile__top">
+            <Image name="_portrait" class="overlay"/>
+
+            <VisualElement class="mini-profile__gradient overlay-bottom"/>
+
+            <VisualElement class="mini-profile__portrait-buttons rtl-reverse">
+              <VisualElement name="_more">
+                <Image class="icon-report"/>
+              </VisualElement>
+            </VisualElement>
+
+            <VisualElement class="mini-profile__details rtl-reverse">
+
+              <VisualElement class="mini-profile__details-background overlay"/>
+              
+              <VisualElement class="mini-profile__nameAndStatus">
+                <hr:UILabel name="_avatarName"/>
+                <VisualElement class="mini-profile__status rtl-reverse">
+                  <VisualElement class="mini-profile__online-indicator"/>
+                  <hr:UILabel name="_roomLabel"/>
+                </VisualElement> 
+              </VisualElement>
+              
+            </VisualElement>
+            
+          </VisualElement>
+
+          <!-- Bottom -->
+          <VisualElement class="mini-profile__bottom">
+      
+            <!-- View -->
+            <VisualElement class="mini-profile__bottom-view">
+
+              <hr:UIExpandableText name="_bio" max-lines="4" mentionMode="TappableUrls" />
+
+              <VisualElement class="mini-profile__buttons rtl-reverse">
+
+                <!-- Profile -->
+                <VisualElement name="_join" class="mini-profile__button-primary">
+                  <VisualElement>
+                    <Image class="icon-locate"/>
+                  </VisualElement>
+                  <hr:UILabel key="join"/>
+                </VisualElement>
+                
+                <!-- Profile -->
+                <VisualElement name="_profile" class="mini-profile__button-primary">
+                  <VisualElement>
+                    <Image class="icon-medium-profile"/>
+                  </VisualElement>
+                  <hr:UILabel key="profile"/>
+                </VisualElement>
+          
+                <!-- Message -->
+                <VisualElement name="_message" class="mini-profile__button-primary">
+                  <VisualElement>
+                    <Image class="icon-message" name="_messageIcon"/>
+                  </VisualElement>
+                  <hr:UILabel key="message"/>
+                </VisualElement>
+
+                <!-- Message -->
+                <VisualElement name="_whisper" class="mini-profile__button-primary">
+                  <VisualElement>
+                    <Image class="icon-message"/>
+                  </VisualElement>
+                  <hr:UILabel key="whisper"/>
+                </VisualElement>
+          
+                <!-- Remove Speaker -->
+                <VisualElement name="_removeSpeaker" class="mini-profile__button-secondary-25">
+                  <VisualElement>
+                    <Image class="icon-voice"/>
+                  </VisualElement>
+                  <hr:UILabel key="remove_from_voice"/>
+                </VisualElement>
+          
+                <!-- Invite Speaker -->
+                <VisualElement name="_inviteSpeaker" class="mini-profile__button-secondary">
+                  <VisualElement>
+                    <Image class="icon-voice"/>
+                  </VisualElement>
+                  <hr:UILabel key="invite_to_voice"/>
+                </VisualElement>
+              </VisualElement>
+            </VisualElement>
+         </VisualElement>
+      </VisualElement>
+    </hr:UIBottomDrawer>
+  </hr:UIMiniProfile>
+</UXML>

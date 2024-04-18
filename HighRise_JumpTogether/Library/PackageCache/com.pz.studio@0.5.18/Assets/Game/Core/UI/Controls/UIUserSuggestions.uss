@@ -1,0 +1,15 @@
+.user-suggestions {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.user-suggestions #_scrollView {
+    background-color: var(--color-fishbase-eel);
+    padding: 0;
+    margin: 0;
+    border-color: var(--color-fishbase-blackfish);
+    border-width: 1px;
+    padding: 5px 10px;
+}

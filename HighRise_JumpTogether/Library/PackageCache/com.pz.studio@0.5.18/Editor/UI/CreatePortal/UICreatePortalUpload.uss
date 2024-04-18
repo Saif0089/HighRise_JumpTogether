@@ -1,0 +1,63 @@
+.create-portal-upload {
+    background-color: var(--color-fishbase-tuna);
+    padding: 24px;
+}
+
+.create-portal-upload #_titleLabel {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.create-portal-upload #_worldLabel {
+    font-size: 15px;
+}
+
+.create-portal-upload #_worldDropdown {
+}
+
+.create-portal-upload DropdownField {
+    height: 44px;
+    background-color: var(--color-fishbase-blackfish);
+}
+
+.create-portal-upload DropdownField PopupTextElement {
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.create-portal-upload #_separator {
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-fishbase-salmon);
+    margin: 22px 0;
+}
+
+.create-portal-upload #_infoLabel {
+    font-size: 15px;
+    color: var(--color-fishbase-bonito-50);
+    width: 100%;
+    white-space: normal;
+    margin-bottom: 32px;
+}
+
+.create-portal-upload #_uploadButton {
+    margin-bottom: 12px;
+}
+
+.create-portal-upload #_cancelButton {
+    background-color: var(--color-fishbase-tuna);
+}
+
+.create-portal-upload Button {
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-portal-upload #_uploadLabel {
+    font-size: 18px;
+}
+
+.create-portal-upload #_cancelLabel {
+    font-size: 18px;
+}

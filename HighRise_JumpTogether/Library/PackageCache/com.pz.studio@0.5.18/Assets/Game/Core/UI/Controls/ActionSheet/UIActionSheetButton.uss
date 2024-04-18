@@ -1,0 +1,40 @@
+.action-sheet-button {
+    height: 44px;
+    padding: 8px 16px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.action-sheet-button-image {
+    height: 24px;
+    width: 24px;
+    margin-right: 12px;
+}
+
+.action-sheet-button-title {
+    font-size: 15px;
+    -unity-font-style: bold;
+    flex-grow: 1;
+}
+
+.action-sheet-button-arrow {
+    height: 16px;
+    width: 16px;
+    --unity-image-tint-color: var(--color-fishbase-anchovy);
+}
+
+.action-sheet-button-regular .action-sheet-button-image {
+    --unity-image-tint-color: var(--color-fishbase-bonito);
+}
+
+.action-sheet-button-regular .action-sheet-button-title {
+    color: var(--color-fishbase-bonito);
+}
+
+.action-sheet-button-destructive .action-sheet-button-image {
+    --unity-image-tint-color: var(--color-basic-destructive);
+}
+
+.action-sheet-button-destructive .action-sheet-button-title {
+    color: var(--color-basic-destructive);
+}

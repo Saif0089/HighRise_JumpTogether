@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:hrc="Highrise.Client"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hrc:UIWorldInfoPlayer class="world-info-player">
+    <VisualElement class="world-info-player__content rtl-reverse">
+      <hr:UIUserThumbnail name="_thumbnail" class="user-thumbnail-small" online-indicator="false" picking-mode="Ignore"/>
+      <VisualElement class="world-info-player__name-info">
+        <VisualElement class="world-info-player__name-container rtl-reverse">
+          <Image class="icon-host"/>
+          <hr:UILabel name="_name"/>
+        </VisualElement>
+      </VisualElement>
+      <Image class="world-info-player__icon"/>
+    </VisualElement>
+  </hrc:UIWorldInfoPlayer>
+</UXML>

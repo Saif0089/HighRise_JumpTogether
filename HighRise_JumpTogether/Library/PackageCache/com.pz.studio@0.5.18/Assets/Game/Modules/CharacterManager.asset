@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -748560893, guid: 30a4c7dce0b6891478396efa6bd2a6d0, type: 3 }
+  m_Name: CharacterManager
+  m_EditorClassIdentifier: 
+  _renderMaterial: {fileID: 2100000, guid: 0030b7a8692714944a374bf71f15abf0, type: 2}
+  _jumpOver: 0.5
+  _petPrefab: {fileID: 4853991594395279756, guid: 2e03a7cb8e2cfaf4cb51d87b31ac7396,
+    type: 3}
+  _bodyRarityPalette: {fileID: 11400000, guid: 2e018fb05286cc347b2ed0efb1486464, type: 2}
+  _backgroundColors: {fileID: 11400000, guid: 7cc890d0b1da34e34af97e6ea556d17d, type: 2}

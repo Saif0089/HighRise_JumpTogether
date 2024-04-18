@@ -1,0 +1,40 @@
+.action-sheet {
+    flex-grow: 1;
+}
+
+.landscape .action-sheet {
+    width: 100%;
+}
+
+.action-sheet UIBottomDrawer {
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.action-sheet-main-container {
+    background-color: var(--color-fishbase-eel);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-bottom: 24px;
+}
+
+.action-sheet-handle {
+    height: 6px;
+    width: 58px;
+    border-radius: 2px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    align-self: center;
+    background-color: var(--color-fishbase-catfish);
+}
+
+.action-sheet-container {
+    padding-bottom: var(--safe-area-bottom);
+}
+
+.action-sheet-separator {
+    margin: 4px 0px;
+    background-color: var(--color-fishbase-catfish);
+    height: 1px;
+    width: 100%;
+}

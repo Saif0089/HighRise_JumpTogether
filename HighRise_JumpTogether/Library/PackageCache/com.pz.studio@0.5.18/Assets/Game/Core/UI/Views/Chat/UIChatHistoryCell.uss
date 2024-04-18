@@ -1,0 +1,136 @@
+.chat-history-cell {
+    flex-direction: column;
+    padding-left: 36px;
+}
+
+.rtl .chat-history-cell {
+    padding-left: 0px;
+    padding-right: 36px;
+}
+
+.chat-history-cell__group {
+    flex-direction: row;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.rtl .chat-history-cell__group {
+    flex-direction: row-reverse;
+}
+
+.rtl .chat-history-cell__group {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.chat-history-cell .chat-history-cell__middle {
+    flex-grow: 1;
+}
+
+.chat-history-cell #_thumbnail {
+    width: 36px;
+    height: 36px;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.chat-history-cell .user-thumbnail__image-container {
+    border-radius: 12px;
+}
+
+.chat-history-cell #_username {
+    color: var(--color-fishbase-whitefish);
+    flex-shrink: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-right: 4px;
+    padding-top: 4px;
+    -unity-font-definition: var(--font-bold);
+}
+
+.rtl .chat-history-cell #_username {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+.chat-history-cell #_message {
+    white-space: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-history-cell #_time {
+    color: var(--color-fishbase-bonito-50);
+    padding-top: 4px;
+    margin-left: auto;
+}
+
+.chat-history-cell__firstline {
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 12px;
+}
+
+.rtl .chat-history-cell__firstline {
+    margin-left: 0;
+    margin-right: 12px;
+}
+
+.chat-history-cell.chat-event--whisper {
+    -unity-font-style: italic;
+}
+
+.chat-history-cell.chat-event--color-default #_username,
+.chat-history-cell.chat-event--color-default #_message {
+    color: var(--color-fishbase-whitefish);
+}
+
+.chat-history-cell.chat-event--color-default.chat-event--whisper #_username,
+.chat-history-cell.chat-event--color-default.chat-event--whisper #_message {
+    color: var(--color-fishbase-bonito);
+}
+
+.chat-history-cell.chat-event--color-self #_username,
+.chat-history-cell.chat-event--color-self #_message {
+    color: var(--color-accents-secondary);
+}
+
+
+.chat-history-cell.chat-event--color-bot #_username,
+.chat-history-cell.chat-event--color-bot #_message {
+    color: var(--color-tertiary-blueberry);
+}
+
+.chat-history-cell.chat-event--color-owner #_username,
+.chat-history-cell.chat-event--color-owner #_message {
+    color: var(--color-tertiary-blueberry);
+}
+
+.chat-history-cell.chat-event--color-moderator #_username,
+.chat-history-cell.chat-event--color-moderator #_message {
+    color: var(--color-tertiary-blueberry);
+}
+
+.chat-history-cell.chat-event--color-staff #_username,
+.chat-history-cell.chat-event--color-staff #_message {
+    color: var(--color-tertiary-tangerine);
+}
+
+.chat-history-cell.chat-event--color-system #_username,
+.chat-history-cell.chat-event--color-system #_message {
+    color: var(--color-tertiary-strawberry);
+}
+
+.chat-history-cell.chat-event--color-roomboost #_username,
+.chat-history-cell.chat-event--color-roomboost #_message {
+    color: var(--color-tertiary-strawberry);
+    -unity-font-style: italic;
+}
+
+.chat-history-cell.chat-event--color-tip #_username,
+.chat-history-cell.chat-event--color-tip #_message {
+    color: #F5AF03;
+}

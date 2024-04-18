@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1662933456, guid: 30a4c7dce0b6891478396efa6bd2a6d0, type: 3 }
+  m_Name: ItemDescriptorStore
+  m_EditorClassIdentifier: 
+  _hairPalette: {fileID: 11400000, guid: 7ae3f484e7ab7ea44b71358d9c719d1b, type: 2}
+  _faceHairPalette: {fileID: 11400000, guid: 0643630cef63abf4ab8a49eea42865db, type: 2}
+  _mouthPalette: {fileID: 11400000, guid: da8761102488fa0468e2011114ec3196, type: 2}
+  _eyePalette: {fileID: 11400000, guid: 4997b7ced8daf874d85367956ae7506b, type: 2}
+  _eyebrowPalette: {fileID: 11400000, guid: 9efc7dbda60137e468dbcca7542bf174, type: 2}
+  _bodyPalette: {fileID: 11400000, guid: f460059b7f1ee2d47b87ced61c2a42ae, type: 2}
+  _test:
+    m_AssetGUID: 86eb1a1eb34ec574c82c50321299d30d
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

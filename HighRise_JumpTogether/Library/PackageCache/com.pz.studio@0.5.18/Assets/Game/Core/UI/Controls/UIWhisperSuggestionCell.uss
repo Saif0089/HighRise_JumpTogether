@@ -1,0 +1,22 @@
+.whisper-suggestion-cell {
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.whisper-suggestion-cell #_thumbnail {
+    width: 36px;
+    height: 36px;
+}
+
+.whisper-suggestion-cell #_thumbnail .user-thumbnail__image-container {
+    background-color: var(--color-fishbase-tuna);
+}
+
+.whisper-suggestion-cell Label {
+    margin-left: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: var(--color-fishbase-whitefish);
+    -unity-font-style: normal;
+    flex-grow: 0;
+}
