@@ -6,7 +6,7 @@ local opaqueObject: GameObject = nil
 --!SerializeField
 local disableOnExit: boolean = false
 
-function self:OnTriggerEnter(collider: Collider)
+function self:OnTriggerStay(collider: Collider)
    EnableObject(true)
 end
 
