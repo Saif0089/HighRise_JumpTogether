@@ -1,29 +1,24 @@
 --!SerializeField
-local stand_height: number = 0
+local transparentObject: GameObject = nil
 --!SerializeField
-local colliding_object: GameObject = nil
-local on_button: boolean = false
+local opaqueObject: GameObject = nil
 
+--!SerializeField
+local disableOnExit: boolean = false
 
 function self:OnTriggerEnter(collider: Collider)
-    colliding_object = collider.gameObject
-    on_button = true
-    local platform = GameObject.FindGameObjectWithTag("Platform")
-    if platform ~= nil then
-        --[[if platform is inactive on compile time uncomment line 14]]
-        platform:SetActive(true)
-        --[[if platform is active on compile time uncomment line 16]]
-        --platform:SetActive(false)
-
-    else
-        print("Platform not found")
-    end
-    print("Button Triggered")
+   EnableObject(true)
 end
 
 function self:OnTriggerExit(collider:Collider)
-    on_button = false
-    print("Button Exited")
+    if disableOnExit then
+        EnableObject(false)
+    end
+end
+
+function EnableObject(enable: boolean)
+    transparentObject:SetActive(not enable)
+    opaqueObject:SetActive(enable)
 end
 
 
