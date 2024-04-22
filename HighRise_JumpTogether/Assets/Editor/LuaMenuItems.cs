@@ -71,12 +71,12 @@ namespace Highrise.Studio.Generated
             Undo.RecordObjects(parents, "Add Lua");
         }
 
-        [MenuItem("Component/Lua/Button Script")]
-        private static void AddComponent1() => AddScript("Assets/Scripts/ButtonScript.lua");
+        [MenuItem("Component/Lua/Check Script")]
+        private static void AddComponent1() => AddScript("Assets/Scripts/CheckScript.lua");
         [MenuItem("Component/Lua/Teleporter")]
         private static void AddComponent2() => AddScript("Assets/Scripts/Teleporter.lua");
-        [MenuItem("Component/Lua/Test")]
-        private static void AddComponent3() => AddScript("Assets/Scripts/Test.lua");
+        [MenuItem("Component/Lua/Teleporter 2")]
+        private static void AddComponent3() => AddScript("Assets/Scripts/Teleporter2.lua");
         [MenuItem("Component/Lua/Anchor Old")]
         private static void AddComponent4() => AddScript("Packages/com.pz.studio/Runtime/Lua/AnchorOld.lua");
         [MenuItem("Component/Lua/General Chat")]
