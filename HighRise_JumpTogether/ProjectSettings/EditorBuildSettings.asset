@@ -8,7 +8,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Template/Scenes/Room.unity
     guid: 3d97b014f52721147ba461f2a8133078
-  - enabled: 1
-    path: Assets/Samples/AI Navigation/1.1.5/Build And Connect NavMesh Surfaces/Scenes/1_multiple_agent_sizes.unity
-    guid: e3a4b724d578d4696a8ccd679e44174c
   m_configObjects: {}

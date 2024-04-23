@@ -22,7 +22,4 @@ MonoBehaviour:
   _scenes:
   - Name: Room
     Scene: {fileID: 102900000, guid: 3d97b014f52721147ba461f2a8133078, type: 3}
-    LoadingImage: {fileID: 0}
-  - Name: 1_multiple_agent_sizes
-    Scene: {fileID: 102900000, guid: e3a4b724d578d4696a8ccd679e44174c, type: 3}
-    LoadingImage: {fileID: 0}
+    LoadingImage: {fileID: 2800000, guid: 6f9235fd7c31aea498918ab44c186b79, type: 3}
