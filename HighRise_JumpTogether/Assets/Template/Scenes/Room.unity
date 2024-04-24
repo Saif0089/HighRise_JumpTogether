@@ -508,6 +508,74 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334594572}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &417990059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 417990061}
+  - component: {fileID: 417990060}
+  m_Layer: 0
+  m_Name: ReferenceObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &417990060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417990059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -173044334, guid: 5e99434f214126023bd8db55a8296c39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _networkId: 0
+  _script: {fileID: -974389366465450183, guid: 04b7419b77e971b44986438a2fd3f0c2, type: 3}
+  _properties:
+  - Property: {fileID: -5209812454016195734, guid: 04b7419b77e971b44986438a2fd3f0c2,
+      type: 3}
+    Value:
+      rid: 5284973613909540865
+  - Property: {fileID: 1349459422744098400, guid: 04b7419b77e971b44986438a2fd3f0c2,
+      type: 3}
+    Value:
+      rid: 5284973613909540866
+  references:
+    version: 2
+    RefIds:
+    - rid: 5284973613909540865
+      type: {class: GameObjectGlue/GameObjectLuaPropertyValue, ns: Highrise.Lua.Glue,
+        asm: com.pz.highrise.lua.glue}
+      data:
+        _value: {fileID: 792204580}
+    - rid: 5284973613909540866
+      type: {class: GameObjectGlue/GameObjectLuaPropertyValue, ns: Highrise.Lua.Glue,
+        asm: com.pz.highrise.lua.glue}
+      data:
+        _value: {fileID: 1303332911}
+--- !u!4 &417990061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417990059}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.95, y: -0.27999985, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &428931394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1488,7 +1556,7 @@ GameObject:
   - component: {fileID: 792204581}
   m_Layer: 0
   m_Name: Red
-  m_TagString: Untagged
+  m_TagString: RedTiles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1978,11 +2046,11 @@ MonoBehaviour:
   - Property: {fileID: -5209812454016195734, guid: b2f137d9c6dd2cb499e3f7ed45cb4238,
       type: 3}
     Value:
-      rid: 5284973591298310180
+      rid: 5284973613909540869
   - Property: {fileID: 1349459422744098400, guid: b2f137d9c6dd2cb499e3f7ed45cb4238,
       type: 3}
     Value:
-      rid: 5284973591298310181
+      rid: 5284973613909540870
   - Property: {fileID: 9038519458579249318, guid: b2f137d9c6dd2cb499e3f7ed45cb4238,
       type: 3}
     Value:
@@ -1991,31 +2059,21 @@ MonoBehaviour:
       type: 3}
     Value:
       rid: 5284973591298310183
-  - Property: {fileID: 38066307625091350, guid: b2f137d9c6dd2cb499e3f7ed45cb4238,
+  - Property: {fileID: -3670827761348588984, guid: b2f137d9c6dd2cb499e3f7ed45cb4238,
       type: 3}
     Value:
-      rid: 5284973591298310189
-  - Property: {fileID: -6298231200143507889, guid: b2f137d9c6dd2cb499e3f7ed45cb4238,
+      rid: 5284973613909540871
+  - Property: {fileID: 5238153805872736994, guid: b2f137d9c6dd2cb499e3f7ed45cb4238,
       type: 3}
     Value:
-      rid: 5284973591298310190
-  - Property: {fileID: -8480889289182450868, guid: b2f137d9c6dd2cb499e3f7ed45cb4238,
+      rid: 5284973613909540872
+  - Property: {fileID: -5751792586994881114, guid: b2f137d9c6dd2cb499e3f7ed45cb4238,
       type: 3}
     Value:
-      rid: 5284973591298310191
+      rid: 5284973613909540873
   references:
     version: 2
     RefIds:
-    - rid: 5284973591298310180
-      type: {class: GameObjectGlue/GameObjectLuaPropertyValue, ns: Highrise.Lua.Glue,
-        asm: com.pz.highrise.lua.glue}
-      data:
-        _value: {fileID: 1303332911}
-    - rid: 5284973591298310181
-      type: {class: GameObjectGlue/GameObjectLuaPropertyValue, ns: Highrise.Lua.Glue,
-        asm: com.pz.highrise.lua.glue}
-      data:
-        _value: {fileID: 792204580}
     - rid: 5284973591298310182
       type: {class: Vector3Glue/Vector3LuaPropertyValue, ns: Highrise.Lua.Glue, asm: com.pz.highrise.lua.glue}
       data:
@@ -2024,15 +2082,25 @@ MonoBehaviour:
       type: {class: Vector3Glue/Vector3LuaPropertyValue, ns: Highrise.Lua.Glue, asm: com.pz.highrise.lua.glue}
       data:
         _value: {x: 27.73, y: 5.877455, z: 2.630076}
-    - rid: 5284973591298310189
+    - rid: 5284973613909540869
+      type: {class: GameObjectGlue/GameObjectLuaPropertyValue, ns: Highrise.Lua.Glue,
+        asm: com.pz.highrise.lua.glue}
+      data:
+        _value: {fileID: 792204580}
+    - rid: 5284973613909540870
+      type: {class: GameObjectGlue/GameObjectLuaPropertyValue, ns: Highrise.Lua.Glue,
+        asm: com.pz.highrise.lua.glue}
+      data:
+        _value: {fileID: 1303332911}
+    - rid: 5284973613909540871
       type: {class: NumberLuaPropertyValue, ns: Highrise.Lua, asm: com.pz.highrise.lua}
       data:
         _value: 3
-    - rid: 5284973591298310190
+    - rid: 5284973613909540872
       type: {class: NumberLuaPropertyValue, ns: Highrise.Lua, asm: com.pz.highrise.lua}
       data:
         _value: 3
-    - rid: 5284973591298310191
+    - rid: 5284973613909540873
       type: {class: BooleanLuaPropertyValue, ns: Highrise.Lua, asm: com.pz.highrise.lua}
       data:
         _value: 0
@@ -2051,7 +2119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1218020596
 Transform:
   m_ObjectHideFlags: 0
@@ -2184,7 +2252,7 @@ GameObject:
   - component: {fileID: 1303332912}
   m_Layer: 0
   m_Name: Blue
-  m_TagString: Untagged
+  m_TagString: BlueTiles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3105,138 +3173,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1714343327}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1740381071
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1740381075}
-  - component: {fileID: 1740381074}
-  - component: {fileID: 1740381073}
-  - component: {fileID: 1740381072}
-  - component: {fileID: 1740381076}
-  m_Layer: 7
-  m_Name: Sphere
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!135 &1740381072
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740381071}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1740381073
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740381071}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1740381074
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740381071}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1740381075
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740381071}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.84, y: 0.96, z: -0.88}
-  m_LocalScale: {x: 3.5102, y: 3.5102, z: 3.5102}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1740381076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740381071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -173044334, guid: 5e99434f214126023bd8db55a8296c39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _networkId: 0
-  _script: {fileID: -974389366465450183, guid: 994c688ee0bcc5849883f7bf073a65b6, type: 3}
-  _properties:
-  - Property: {fileID: -9206079390898100382, guid: 994c688ee0bcc5849883f7bf073a65b6,
-      type: 3}
-    Value:
-      rid: 5284973591298310145
-  references:
-    version: 2
-    RefIds:
-    - rid: 5284973591298310145
-      type: {class: Vector3Glue/Vector3LuaPropertyValue, ns: Highrise.Lua.Glue, asm: com.pz.highrise.lua.glue}
-      data:
-        _value: {x: -3.21, y: 0.96, z: -0.88}
 --- !u!1001 &1840120100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3854,6 +3790,6 @@ SceneRoots:
   - {fileID: 1332807718}
   - {fileID: 2008864649}
   - {fileID: 877443471}
-  - {fileID: 1740381075}
   - {fileID: 1218020596}
   - {fileID: 1076002673}
+  - {fileID: 417990061}

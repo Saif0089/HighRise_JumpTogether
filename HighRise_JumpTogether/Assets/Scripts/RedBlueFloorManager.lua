@@ -7,42 +7,35 @@ local position_1: Vector3 = Vector3.new(0,0,0)
 --!SerializeField
 local position_2: Vector3 = Vector3.new(0,0,0)
 
-
 local change_tile = Event.new("ChangeTile")
 
 local lastChangeTime = 0
 --!SerializeField
-local AlarmCooldownCurrent: number = 0
+local TimerCooldownCurrent: number = 0
 --!SerializeField
-local AlarmCoolDownTotal: number = 0
+local TimerCoolDownTotal: number = 0
 local state_1 = "Blue"
 --!SerializeField
-local canAlarm: boolean = false
+local startTimer: boolean = false
 
 
 local CollisionResponse = Event.new("CollisionResponse")
 
-function self:ServerStart()
-  
-
-    
-
-end
 
 function self:ServerUpdate()
  
-    if(canAlarm == false)then
-        AlarmCooldownCurrent = AlarmCooldownCurrent - Time.deltaTime
+    if(startTimer == false)then
+        TimerCooldownCurrent = TimerCooldownCurrent - Time.deltaTime
         --print(tostring(AlarmCooldownCurrent))
-        if(AlarmCooldownCurrent <= 0)then
-            canAlarm = true
-            SwitchTiles()
+        if(TimerCooldownCurrent <= 0)then
+            startTimer = true
+            SwitchTiles("Server")
             print("Timer Worked")
             CollisionResponse:FireAllClients()
-            AlarmCooldownCurrent = AlarmCoolDownTotal
-            AlarmCooldownCurrent = 3
-            AlarmCoolDownTotal = 3
-            canAlarm = false
+            TimerCooldownCurrent = TimerCoolDownTotal
+            TimerCooldownCurrent = 3
+            TimerCoolDownTotal = 3
+            startTimer = false
         end
     end
 
@@ -50,25 +43,27 @@ end
 
 function self:ClientAwake()
     print("Client Awake is being called")
-    CollisionResponse:Connect(function()  SwitchTiles() print("Server Reponse Received")end)
+    CollisionResponse:Connect(function()  SwitchTiles("Client") print("Server Reponse Received")end)
 end
 
-function SwitchTiles() 
+function SwitchTiles(origin) 
     if state_1 == "Blue" then
 
-        if(blue_tiles == nil) then
-            print("Blue Tile Nil")
-        end
-
+        if(blue_tiles == nil or red_tiles == nil) then
+            print(origin.." - Blue or Red Tile Nil")
+        else
         blue_tiles.transform.position = position_2
         red_tiles.transform.position = position_1
-
         state = "Red"
+        end
     else
-        blue_tiles.transform.position = position_1
-        red_tiles.transform.position = position_2
-
-        state = "Blue"
+        if (blue_tiles == nil or red_tiles == nil) then
+            print(origin.." - Blue or Red Tile Nil")
+        else
+            blue_tiles.transform.position = position_1
+            red_tiles.transform.position = position_2
+            state = "Blue"
+        end
     end
 
 end

@@ -75,16 +75,18 @@ namespace Highrise.Studio.Generated
         private static void AddComponent1() => AddScript("Assets/Scripts/RedBlueFloorManager.lua");
         [MenuItem("Component/Lua/Teleporter")]
         private static void AddComponent2() => AddScript("Assets/Scripts/Teleporter.lua");
+        [MenuItem("Component/Lua/Teleporter 2")]
+        private static void AddComponent3() => AddScript("Assets/Scripts/Teleporter2.lua");
         [MenuItem("Component/Lua/Anchor Old")]
-        private static void AddComponent3() => AddScript("Packages/com.pz.studio/Runtime/Lua/AnchorOld.lua");
+        private static void AddComponent4() => AddScript("Packages/com.pz.studio/Runtime/Lua/AnchorOld.lua");
         [MenuItem("Component/Lua/General Chat")]
-        private static void AddComponent4() => AddScript("Packages/com.pz.studio/Runtime/Lua/GeneralChat.lua");
+        private static void AddComponent5() => AddScript("Packages/com.pz.studio/Runtime/Lua/GeneralChat.lua");
         [MenuItem("Component/Lua/Highrise Camera Controller")]
-        private static void AddComponent5() => AddScript("Packages/com.pz.studio/Runtime/Lua/HighriseCameraController.lua");
+        private static void AddComponent6() => AddScript("Packages/com.pz.studio/Runtime/Lua/HighriseCameraController.lua");
         [MenuItem("Component/Lua/RTS Camera")]
-        private static void AddComponent6() => AddScript("Packages/com.pz.studio/Runtime/Lua/RTSCamera.lua");
+        private static void AddComponent7() => AddScript("Packages/com.pz.studio/Runtime/Lua/RTSCamera.lua");
         [MenuItem("Component/Lua/Scene Loader")]
-        private static void AddComponent7() => AddScript("Packages/com.pz.studio/Runtime/Lua/SceneLoader.lua");
+        private static void AddComponent8() => AddScript("Packages/com.pz.studio/Runtime/Lua/SceneLoader.lua");
 
     }
 }
