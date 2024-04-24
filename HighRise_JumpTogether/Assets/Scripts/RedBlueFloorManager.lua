@@ -52,16 +52,16 @@ function SwitchTiles(origin)
         if(blue_tiles == nil or red_tiles == nil) then
             print(origin.." - Blue or Red Tile Nil")
         else
-        blue_tiles.transform.position = position_2
-        red_tiles.transform.position = position_1
+        blue_tiles.transform.localPosition = position_2
+        red_tiles.transform.localPosition = position_1
         state = "Red"
         end
     else
         if (blue_tiles == nil or red_tiles == nil) then
             print(origin.." - Blue or Red Tile Nil")
         else
-            blue_tiles.transform.position = position_1
-            red_tiles.transform.position = position_2
+            blue_tiles.transform.localPosition = position_1
+            red_tiles.transform.localPosition = position_2
             state = "Blue"
         end
     end
