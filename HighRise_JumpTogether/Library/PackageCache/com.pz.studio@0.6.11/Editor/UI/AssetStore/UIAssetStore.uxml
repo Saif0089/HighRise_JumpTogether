@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <VisualElement class="asset-store">
+    <VisualElement name="_toolbar">
+        <editor:ToolbarSearchField name="_search"/>
+        <VisualElement name="_hasScripts">
+            <Image name="_hasScriptsToggleIcon"/>
+            <Label text="Smart"/>
+            <Toggle name="_hasScriptsToggle"/>
+        </VisualElement>
+        <Button name="_refreshButton">
+            <Image name="_refreshIcon"/>
+            <Label text="Refresh"/>
+        </Button>
+    </VisualElement>
+    <VisualElement name="_content">
+        <VisualElement name="_categories">
+        </VisualElement>
+        <VisualElement name="_assetsContainer">
+        </VisualElement>
+    </VisualElement>
+  </VisualElement>
+</UXML>

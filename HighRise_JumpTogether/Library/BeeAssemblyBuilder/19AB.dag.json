@@ -1,0 +1,1001 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.UnityAdditionalFile.txt",
+      "DisplayName": "Writing LuaBehaviour.Generated.UnityAdditionalFile.txt",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 118,
+      "PayloadLength": 61,
+      "PayloadDebugContentSnippet": "V:\\Unity Projects\\HighRise_Jum",
+      "Inputs": [],
+      "Outputs": [
+        "Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.UnityAdditionalFile.txt"
+      ],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp",
+      "DisplayName": "Writing LuaBehaviour.Generated.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 283,
+      "PayloadLength": 40546,
+      "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
+      "Inputs": [],
+      "Outputs": [
+        "Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp"
+      ],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp2",
+      "DisplayName": "Writing LuaBehaviour.Generated.rsp2",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 40934,
+      "PayloadLength": 0,
+      "PayloadDebugContentSnippet": "",
+      "Inputs": [],
+      "Outputs": [
+        "Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp2"
+      ],
+      "DebugActionIndex": 3
+    },
+    {
+      "Annotation": "Csc Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.dll (+2 others)",
+      "DisplayName": "Csc LuaBehaviour.Generated",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp\" \"@Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp2\"",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.assets.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.async.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.collections.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.crash.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.download.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.extensions.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.file.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.http.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.module.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.objectid.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.server.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.ui.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.core.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.game.client.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.game.server.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.lua.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.lua.glue.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.mockportal.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.studio.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/Highrise.Create.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/Highrise.Haptics.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/Highrise.Model.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/NoZ.Tweening.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/SevenZip.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/spine-unity.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/websocket-sharp.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.Unsafe.dll",
+        "Library/PackageCache/com.unity.collections@2.1.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
+        "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/AVProVideo.Editor.dll",
+        "Library/ScriptAssemblies/AVProVideo.Editor.dll",
+        "Library/ScriptAssemblies/AVProVideo.Runtime.dll",
+        "Library/ScriptAssemblies/AVProVideo.Runtime.dll",
+        "Library/ScriptAssemblies/com.pz.studio.extra.dll",
+        "Library/ScriptAssemblies/com.pz.studio.extra.dll",
+        "Library/ScriptAssemblies/PPv2URPConverters.dll",
+        "Library/ScriptAssemblies/PPv2URPConverters.dll",
+        "Library/ScriptAssemblies/Unity.Addressables.dll",
+        "Library/ScriptAssemblies/Unity.Addressables.dll",
+        "Library/ScriptAssemblies/Unity.Addressables.Editor.dll",
+        "Library/ScriptAssemblies/Unity.Addressables.Editor.dll",
+        "Library/ScriptAssemblies/Unity.AI.Navigation.dll",
+        "Library/ScriptAssemblies/Unity.AI.Navigation.dll",
+        "Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll",
+        "Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll",
+        "Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll",
+        "Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll",
+        "Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll",
+        "Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll",
+        "Library/ScriptAssemblies/Unity.Burst.CodeGen.dll",
+        "Library/ScriptAssemblies/Unity.Burst.CodeGen.dll",
+        "Library/ScriptAssemblies/Unity.Burst.dll",
+        "Library/ScriptAssemblies/Unity.Burst.dll",
+        "Library/ScriptAssemblies/Unity.Burst.Editor.dll",
+        "Library/ScriptAssemblies/Unity.Burst.Editor.dll",
+        "Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll",
+        "Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll",
+        "Library/ScriptAssemblies/Unity.Collections.CodeGen.dll",
+        "Library/ScriptAssemblies/Unity.Collections.CodeGen.dll",
+        "Library/ScriptAssemblies/Unity.Collections.dll",
+        "Library/ScriptAssemblies/Unity.Collections.dll",
+        "Library/ScriptAssemblies/Unity.Collections.Editor.dll",
+        "Library/ScriptAssemblies/Unity.Collections.Editor.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.Editor.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.Editor.dll",
+        "Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll",
+        "Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.Csg.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.Csg.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll",
+        "Library/ScriptAssemblies/Unity.Profiling.Core.dll",
+        "Library/ScriptAssemblies/Unity.Profiling.Core.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll",
+        "Library/ScriptAssemblies/Unity.ResourceManager.dll",
+        "Library/ScriptAssemblies/Unity.ResourceManager.dll",
+        "Library/ScriptAssemblies/Unity.Rider.Editor.dll",
+        "Library/ScriptAssemblies/Unity.Rider.Editor.dll",
+        "Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll",
+        "Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll",
+        "Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll",
+        "Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll",
+        "Library/ScriptAssemblies/Unity.Searcher.Editor.dll",
+        "Library/ScriptAssemblies/Unity.Searcher.Editor.dll",
+        "Library/ScriptAssemblies/Unity.Settings.Editor.dll",
+        "Library/ScriptAssemblies/Unity.Settings.Editor.dll",
+        "Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll",
+        "Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll",
+        "Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll",
+        "Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.Editor.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VSCode.Editor.dll",
+        "Library/ScriptAssemblies/Unity.VSCode.Editor.dll",
+        "Library/ScriptAssemblies/UnityEditor.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEditor.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEditor.UI.dll",
+        "Library/ScriptAssemblies/UnityEditor.UI.dll",
+        "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Packages/com.pz.studio.generated/LuaBehaviour.Generated.dll",
+        "Library/Highrise/LuaManagedBehaviours/AnchorOld.cs",
+        "Library/Highrise/LuaManagedBehaviours/Button.cs",
+        "Library/Highrise/LuaManagedBehaviours/CharacterMoverScript.cs",
+        "Library/Highrise/LuaManagedBehaviours/Detector.cs",
+        "Library/Highrise/LuaManagedBehaviours/GeneralChat.cs",
+        "Library/Highrise/LuaManagedBehaviours/HighriseCameraController.cs",
+        "Library/Highrise/LuaManagedBehaviours/MemoryGame.cs",
+        "Library/Highrise/LuaManagedBehaviours/PlayerCharacterController.cs",
+        "Library/Highrise/LuaManagedBehaviours/PlayerCharacterSpawner.cs",
+        "Library/Highrise/LuaManagedBehaviours/RedBlueFloorManager.cs",
+        "Library/Highrise/LuaManagedBehaviours/RTSCamera.cs",
+        "Library/Highrise/LuaManagedBehaviours/SceneLoader.cs",
+        "Library/Highrise/LuaManagedBehaviours/Teleporter.cs",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
+        "Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp"
+      ],
+      "Outputs": [
+        "Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.dll",
+        "Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.pdb",
+        "Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.ref.dll"
+      ],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "ToUseDependencies": [
+        1,
+        3
+      ],
+      "FrontendResponseFiles": [
+        "Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "DOTNET_MULTILEVEL_LOOKUP",
+          "Value": "0"
+        }
+      ],
+      "DebugActionIndex": 4
+    },
+    {
+      "Annotation": "CopyFiles Temp/Highrise/LuaBehaviour.Generated.dll",
+      "DisplayName": "Copying LuaBehaviour.Generated.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.dll"
+      ],
+      "Outputs": [
+        "Temp/Highrise/LuaBehaviour.Generated.dll"
+      ],
+      "ToBuildDependencies": [
+        4
+      ],
+      "DebugActionIndex": 5
+    },
+    {
+      "Annotation": "CopyFiles Temp/Highrise/LuaBehaviour.Generated.pdb",
+      "DisplayName": "Copying LuaBehaviour.Generated.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.pdb"
+      ],
+      "Outputs": [
+        "Temp/Highrise/LuaBehaviour.Generated.pdb"
+      ],
+      "ToBuildDependencies": [
+        4
+      ],
+      "DebugActionIndex": 6
+    },
+    {
+      "Annotation": "ScriptAssemblies",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        5,
+        6
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 7
+    },
+    {
+      "Annotation": "WriteResponseFile Library/BeeAssemblyBuilder/artifacts/rsp/6097564273297756792.rsp",
+      "DisplayName": "Writing 6097564273297756792.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 41038,
+      "PayloadLength": 11849,
+      "PayloadDebugContentSnippet": "-a=\"V:\\Unity Projects\\HighRise",
+      "Inputs": [],
+      "Outputs": [
+        "Library/BeeAssemblyBuilder/artifacts/rsp/6097564273297756792.rsp"
+      ],
+      "DebugActionIndex": 8
+    },
+    {
+      "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
+      "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" @\"Library\\BeeAssemblyBuilder\\artifacts\\rsp\\6097564273297756792.rsp\"",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/AVProVideo.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.Addressables.dll",
+        "Library/ScriptAssemblies/Unity.AI.Navigation.dll",
+        "Library/ScriptAssemblies/Unity.Burst.dll",
+        "Library/ScriptAssemblies/Unity.Collections.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.Csg.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll",
+        "Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll",
+        "Library/ScriptAssemblies/Unity.Profiling.Core.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll",
+        "Library/ScriptAssemblies/Unity.ResourceManager.dll",
+        "Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Packages/com.pz.studio.generated/LuaBehaviour.Generated.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.assets.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.async.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.collections.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.crash.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.download.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.extensions.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.file.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.http.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.module.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.objectid.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.server.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.ui.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.core.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.game.client.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.game.server.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.lua.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.lua.glue.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.mockportal.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.studio.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/Highrise.Create.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/Highrise.Haptics.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/Highrise.Model.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/NoZ.Tweening.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/SevenZip.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/spine-unity.dll",
+        "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/websocket-sharp.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.Unsafe.dll",
+        "Library/PackageCache/com.unity.collections@2.1.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
+        "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "Library/BeeAssemblyBuilder/artifacts/rsp/6097564273297756792.rsp"
+      ],
+      "Outputs": [
+        "Library/BuildPlayerData/Editor/TypeDb-All.json"
+      ],
+      "ToBuildDependencies": [
+        8
+      ],
+      "FrontendResponseFiles": [
+        "Library/BeeAssemblyBuilder/artifacts/rsp/6097564273297756792.rsp"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 9
+    },
+    {
+      "Annotation": "ScriptAssembliesAndTypeDB",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        7,
+        9
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 10
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "Library/BeeAssemblyBuilder/19AB-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "Assets/csc.rsp"
+    },
+    {
+      "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Library/BeeAssemblyBuilder/19AB-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.assets.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.async.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.collections.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.crash.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.download.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.extensions.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.file.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.http.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.module.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.objectid.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.server.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.core.ui.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.core.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.game.client.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.game.server.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.lua.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.lua.glue.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.highrise.mockportal.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/com.pz.studio.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/Highrise.Create.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/Highrise.Haptics.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/Highrise.Model.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/NoZ.Tweening.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/SevenZip.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/spine-unity.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.pz.studio@0.6.11/Runtime/Plugins/websocket-sharp.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.Unsafe.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.collections@2.1.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/AVProVideo.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Addressables.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AI.Navigation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Burst.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Collections.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.ProBuilder.Csg.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.ProBuilder.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Profiling.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.ResourceManager.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Timeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.State.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    },
+    {
+      "File": "Packages/com.pz.studio.generated/LuaBehaviour.Generated.dll"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/BuildPipeline"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".pdb"
+  ],
+  "StructuredLogFileName": "Library/BeeAssemblyBuilder/tundra.log.json",
+  "StateFileName": "Library/BeeAssemblyBuilder/TundraBuildState.state",
+  "StateFileNameTmp": "Library/BeeAssemblyBuilder/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/BeeAssemblyBuilder/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/BeeAssemblyBuilder/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/BeeAssemblyBuilder/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/BeeAssemblyBuilder/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/BeeAssemblyBuilder/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/BeeAssemblyBuilder/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "ScriptAssemblies": 7,
+          "ScriptAssembliesAndTypeDB": 10
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/BeeAssemblyBuilder/19AB.dag.json",
+  "PayloadsFile": "V:/Unity Projects/HighRise_JumpTogether/HighRise_JumpTogether/Library/BeeAssemblyBuilder/19AB.dag.payloads",
+  "RelativePathToRoot": "../.."
+}

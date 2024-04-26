@@ -1,2 +1,0 @@
-        [MenuItem("Component/#NAME#")]
-        private static void AddComponent#INDEX#() => AddScript("#PATH#");

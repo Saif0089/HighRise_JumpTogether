@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Packages/com.pz.highrise.lua.glue/Runtime/Generated/Lua.meta
+guid: 8b6770575b3f54be69bc4c4218267620
+folderAsset: yes
+========
+guid: d08584ec3acf068439e7ee534196f860
+>>>>>>>> studio:Packages/com.pz.studio/Editor/Templates/Package.template.meta
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,64 @@
+.player {
+}
+
+.player #_roomContainer {
+    flex-grow: 1;
+}
+
+.player #_controller {
+    flex-grow: 1;
+}
+
+.player #_roomCustom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 64px;
+}
+
+.player #_right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 375px;
+}
+
+.player #_worldInfo {
+    flex-grow: 1;
+    background-color: var(--color-fishbase-eel);
+}
+
+.player #_right #_worldInfoButton {
+    position: absolute;
+    right: 385px;
+    top: var(--safe-area-top);
+}
+
+.player #_loading {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: var(--color-fishbase-eel);
+ }
+
+.player #_chat {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.portrait .player .top-safe {
+    background-color: var(--color-fishbase-eel);
+    height: var(--safe-area-top);
+}
+
+.portrait .player .bottom-safe {
+    background-color: var(--color-fishbase-eel);
+    height: var(--safe-area-bottom);
+} 

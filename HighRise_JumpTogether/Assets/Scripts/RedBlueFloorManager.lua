@@ -14,7 +14,7 @@ local lastChangeTime = 0
 local TimerCooldownCurrent: number = 0
 --!SerializeField
 local TimerCoolDownTotal: number = 0
-local state_1 = "Blue"
+local state = "Blue"
 --!SerializeField
 local startTimer: boolean = false
 
@@ -29,7 +29,7 @@ function self:ServerUpdate()
         --print(tostring(AlarmCooldownCurrent))
         if(TimerCooldownCurrent <= 0)then
             startTimer = true
-            SwitchTiles("Server")
+            --SwitchTiles("Server")
             print("Timer Worked")
             CollisionResponse:FireAllClients()
             TimerCooldownCurrent = TimerCoolDownTotal
@@ -47,7 +47,7 @@ function self:ClientAwake()
 end
 
 function SwitchTiles(origin) 
-    if state_1 == "Blue" then
+    if state == "Blue" then
 
         if(blue_tiles == nil or red_tiles == nil) then
             print(origin.." - Blue or Red Tile Nil")
@@ -55,6 +55,7 @@ function SwitchTiles(origin)
         blue_tiles.transform.localPosition = position_2
         red_tiles.transform.localPosition = position_1
         state = "Red"
+  
         end
     else
         if (blue_tiles == nil or red_tiles == nil) then
@@ -63,6 +64,7 @@ function SwitchTiles(origin)
             blue_tiles.transform.localPosition = position_1
             red_tiles.transform.localPosition = position_2
             state = "Blue"
+        
         end
     end
 

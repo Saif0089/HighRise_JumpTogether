@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="UnityEngine.UIElements"
+        xmlns:hr="Highrise.UI"
+        xmlns:hrc="Highrise.Client"
+        xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+
+    <hrc:UIWorldChat class="world-chat" picking-mode="Ignore">
+        <VisualElement class="chat-container" picking-mode="Ignore">
+            <VisualElement name="_aboveChat" picking-mode="Ignore">
+                <VisualElement name="_controls" picking-mode="Ignore">
+                    <hr:UIActionPicker/>
+                </VisualElement>
+            </VisualElement>
+
+            <!-- History -->
+            <VisualElement name="_historyDrawerContainer" picking-mode="Ignore">
+                <hr:UIBottomDrawer name="_historyDrawer" half-expanded-position="0" picking-mode="Ignore">
+                    <hr:UICollectionSection>
+                        <VisualElement name="_slideoutHandle"/>
+                    </hr:UICollectionSection>
+                    <VisualElement name="_history">
+                        <hr:UICollection>
+                            <hr:UICollectionSection>
+                                <hr:UICollectionCells name="_historyCells" layout="stack" layout-spacing="0"/>
+                            </hr:UICollectionSection>
+                        </hr:UICollection>
+                
+                        <!-- Typing indicator -->
+                        <hr:UILabel name="_typingIndicator"/>
+                    </VisualElement>
+                </hr:UIBottomDrawer>
+            </VisualElement>
+
+            <!-- Chat Bar -->
+            <VisualElement class="chat-bar-container">
+                <VisualElement name="_chatBar" class="rtl-reverse">
+                    <VisualElement name="_chatBarBackground" class="overlay">
+                        <hr:UIBlur class="overlay"/>
+                        <VisualElement class="blur-darken overlay"/>
+                    </VisualElement>
+
+                    <!-- History button -->
+                    <hr:UIButton name="_historyButton">
+                        <Image class="icon-chat-history"/>
+                    </hr:UIButton>
+
+                    <VisualElement name="_chatInputContainer">
+                        <!-- Chat Input -->
+                        <hr:UITextField name="_chatInput" placeholder="say_something"/>
+
+                        <!-- Chat safety -->
+                        <VisualElement name="_chatInputSafety" class="overlay"/>
+                    </VisualElement>
+
+                    <!-- SendMessage Button -->
+                    <VisualElement name="_sendMessageButton" focusable="false">
+                        <Image class="icon-send-message rtl-rotate"/>
+                    </VisualElement>
+
+                    <!-- Emotes button -->
+                    <hr:UIButton name="_emotesButton">
+                        <Image class="icon-emotes"/>
+                    </hr:UIButton>
+
+                    <!-- User Suggestions -->
+                    <VisualElement name="_userSuggestionsContainer" class="overlay-bottom" picking-mode="Ignore">
+                        <hr:UIScrollView name="_userSuggestions"/>
+                    </VisualElement>
+                </VisualElement>
+
+                <VisualElement name="_voiceButton">
+                    <hr:UIBlur class="overlay"/>
+                    <Image class="icon-voice"/>
+                </VisualElement>
+            </VisualElement>
+        </VisualElement>
+        
+        <!-- Emotes -->
+        <hr:UIEmotes name="_emotes"/>
+        
+        <VisualElement name="_hud" picking-mode="Ignore"/>
+
+    </hrc:UIWorldChat>
+</UXML>

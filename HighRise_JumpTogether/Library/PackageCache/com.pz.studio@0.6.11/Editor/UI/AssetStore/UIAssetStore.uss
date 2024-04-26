@@ -1,0 +1,253 @@
+/*
+
+    Asset Store
+  
+*/
+
+.asset-store {
+    flex-grow: 1;
+}
+
+.asset-store #_content {
+    flex-grow: 1;
+    flex-direction: row;
+    border-top-width: 1px;
+    border-top-color: var(--unity-colors-toolbar-border);
+}
+
+.asset-store #_categories {
+    width: 150px;
+}
+
+.asset-store #_assetsContainer {
+    flex-grow: 1;
+}
+
+.asset-store #_assetsContainer UICollectionSection {
+    padding: 8px;
+    padding-right: 16px;
+}
+
+/*
+
+    Toolbar
+  
+*/
+
+.asset-store #_toolbar {
+    height: var(--unity-metrics-toolbar-height);
+    background-color: var(--unity-colors-toolbar-background);
+    padding-left: 8px;
+    padding-right: 8px;
+    flex-direction: row-reverse;
+}
+
+.asset-store #_search {
+    margin-left: auto;
+}
+
+.asset-store #_hasScripts {
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.asset-store #_hasScriptsToggle {
+    margin: 3px;
+}
+
+.asset-store #_hasScriptsToggleIcon {
+    width:20px;
+    padding: 1px;
+    --unity-image: url("project://database/Packages/com.pz.studio/Editor/Icons/LuaScript.png")
+}
+
+.asset-store #_refreshButton {
+    flex-direction: row;
+    margin-right: 5px;
+}
+
+.asset-store #_refreshIcon {
+    width: 20px;
+    --unity-image: url("project://database/Packages/com.pz.studio/Editor/UI/Icons/icon_swap_small.png");
+}
+
+/*
+
+    Asset Store Category
+  
+*/
+
+.asset-store #_categories {
+    background-color: var(--unity-colors-tab-background-hover);
+}
+
+.asset-store-category {
+    padding-left: 8px;
+    flex-direction: row;
+    font-size: 110%;
+    -unity-font-style: bold;
+    height: 28px;
+    -unity-text-align: middle-left;
+    color: #ABADB8;
+}
+
+.asset-store-category:hover
+{
+    background-color: var(--unity-colors-tab-background);
+}
+
+.asset-store-category:checked {
+    background-color: var(--unity-colors-tab-background-checked);
+    color: white;
+}
+
+.asset-store-category > .unity-label {
+    margin-left: 4px;
+}
+
+.asset-store-category > .unity-image {
+    width: 20px;
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    --unity-image: url("project://database/Packages/com.pz.studio/Editor/UI/Icons/icon_categories_new.png");
+    --unity-image-tint-color: var(--color-greybase4)
+}
+
+.asset-store-category:checked > .unity-image {
+    --unity-image-tint-color: white;
+}
+
+/*
+
+    Asset Store Categories
+  
+*/
+
+.asset-store-category.AssetCategory-Installed > .unity-image {
+    --unity-image: url("project://database/Packages/com.pz.studio/Assets/Sprites/Icons/icon_save.png");
+}
+
+.asset-store-category.AssetCategory-Landscape > .unity-image {
+    --unity-image: url("project://database/Packages/com.pz.studio/Editor/UI/Icons/icon_assetstore_landscape.png");
+}
+
+.asset-store-category.AssetCategory-Furniture > .unity-image {
+    --unity-image: url("project://database/Packages/com.pz.studio/Editor/UI/Icons/inventory_furniture.png");
+}
+
+.asset-store-category.AssetCategory-Structure > .unity-image {
+    --unity-image: url("project://database/Packages/com.pz.studio/Editor/UI/Icons/tab_bar_rooms_new.png");
+}
+
+.asset-store-category.AssetCategory-Light > .unity-image {
+    --unity-image: url("project://database/Packages/com.pz.studio/Editor/UI/Icons/closet_auras_new.png");
+}
+
+.asset-store-category.AssetCategory-Vehicle > .unity-image {
+    --unity-image: url("project://database/Packages/com.pz.studio/Editor/UI/Icons/icon_assetstore_vehicle.png");
+}
+
+.asset-store-category.AssetCategory-Clothing > .unity-image {
+    --unity-image: url("project://database/Packages/com.pz.studio/Editor/UI/Icons/closet_tops_new.png");
+}
+
+.asset-store-category.AssetCategory-Creatures > .unity-image {
+    --unity-image: url("project://database/Packages/com.pz.studio/Editor/UI/Icons/icon_assetstore_creatures.png");
+}
+
+.asset-store-category.AssetCategory-DevModules > .unity-image {
+    --unity-image: url("project://database/Packages/com.pz.studio/Editor/UI/Icons/icon_assetstore_devmodules.png");
+}
+
+
+
+/*
+
+    Asset Store Items
+  
+*/
+
+.asset-store .asset-store-item {
+    width: 100px;
+    height: 120px;
+    -unity-text-align: middle-center;
+}
+
+.asset-store .asset-store-item > .unity-image {
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--unity-colors-tab-background);
+}
+
+.asset-store .asset-store-item > .unity-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 85%;
+    height: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    padding: 6px;
+}
+
+.asset-store .asset-store-item .unity-progress-bar__container {
+    height: 10px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 85px;
+}
+
+.asset-store .asset-store-item .unity-progress-bar__background {
+    border-radius: 6px;
+}
+
+.asset-store .asset-store-item .unity-progress-bar__progress {
+    border-radius: 4px;
+    background-color: greenyellow;
+}
+
+.asset-store .asset-store-item:checked > .unity-label {
+    background-color: var(--unity-colors-highlight-background);
+    border-radius: 3px;
+    color: white;
+}
+
+.asset-store-item .installed {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    background-image: url("project://database/Packages/com.pz.studio/Assets/Sprites/Icons/icon_check_square.png");
+    -unity-background-image-tint-color: greenyellow;
+}
+
+.asset-store-item:hover .install {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    border-radius: 4px;
+    background-color: var(--unity-colors-toolbar-background);
+    background-image: url("project://database/Packages/com.pz.studio/Assets/Sprites/Icons/icon_save.png")
+}
+
+.asset-store-item .has_scripts {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 4px;
+    background-image: url("project://database/Packages/com.pz.studio/Editor/Icons/LuaScript.png")
+}

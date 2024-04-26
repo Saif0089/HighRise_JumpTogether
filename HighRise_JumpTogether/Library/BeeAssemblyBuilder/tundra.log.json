@@ -1,0 +1,28 @@
+{"msg":"init","dagFile":"Library/BeeAssemblyBuilder/19AB.dag","targets":["ScriptAssemblies"]}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"ScriptAssemblies","enqueuedNodeIndex":7}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Temp/Highrise/LuaBehaviour.Generated.dll","enqueuedNodeIndex":5,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":7}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"Csc Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.dll (+2 others)","enqueuedNodeIndex":4,"enqueueingNodeAnnotation":"CopyFiles Temp/Highrise/LuaBehaviour.Generated.dll","enqueueingNodeIndex":5}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.UnityAdditionalFile.txt","enqueuedNodeIndex":1,"enqueueingNodeAnnotation":"Csc Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.dll (+2 others)","enqueueingNodeIndex":4}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp","enqueuedNodeIndex":2,"enqueueingNodeAnnotation":"Csc Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.dll (+2 others)","enqueueingNodeIndex":4}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp2","enqueuedNodeIndex":3,"enqueueingNodeAnnotation":"Csc Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.dll (+2 others)","enqueueingNodeIndex":4}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Temp/Highrise/LuaBehaviour.Generated.pdb","enqueuedNodeIndex":6,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":7}
+{"msg":"newNode","annotation":"WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp2","index":3}
+{"msg":"runNodeAction","annotation":"WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp2","displayName":"Writing LuaBehaviour.Generated.rsp2","index":3}
+{"msg":"newNode","annotation":"WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.UnityAdditionalFile.txt","index":1}
+{"msg":"runNodeAction","annotation":"WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.UnityAdditionalFile.txt","displayName":"Writing LuaBehaviour.Generated.UnityAdditionalFile.txt","index":1}
+{"msg":"newNode","annotation":"WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp","index":2}
+{"msg":"runNodeAction","annotation":"WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp","displayName":"Writing LuaBehaviour.Generated.rsp","index":2}
+{"msg":"noderesult","processed_node_count":0,"number_of_nodes_ever_queued":7,"annotation":"WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp2","index":3,"exitcode":0,"outputfile":"Library\\BeeAssemblyBuilder\\artifacts\\19AB.dag\\LuaBehaviour.Generated.rsp2"}
+{"msg":"noderesult","processed_node_count":1,"number_of_nodes_ever_queued":7,"annotation":"WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.UnityAdditionalFile.txt","index":1,"exitcode":0,"outputfile":"Library\\BeeAssemblyBuilder\\artifacts\\19AB.dag\\LuaBehaviour.Generated.UnityAdditionalFile.txt"}
+{"msg":"noderesult","processed_node_count":2,"number_of_nodes_ever_queued":7,"annotation":"WriteText Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.rsp","index":2,"exitcode":0,"outputfile":"Library\\BeeAssemblyBuilder\\artifacts\\19AB.dag\\LuaBehaviour.Generated.rsp"}
+{"msg":"newNode","annotation":"Csc Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.dll (+2 others)","index":4}
+{"msg":"runNodeAction","annotation":"Csc Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.dll (+2 others)","displayName":"Csc LuaBehaviour.Generated","index":4}
+{"msg":"noderesult","processed_node_count":3,"number_of_nodes_ever_queued":7,"annotation":"Csc Library/BeeAssemblyBuilder/artifacts/19AB.dag/LuaBehaviour.Generated.dll (+2 others)","index":4,"exitcode":0,"outputfile":"Library\\BeeAssemblyBuilder\\artifacts\\19AB.dag\\LuaBehaviour.Generated.dll"}
+{"msg":"newNode","annotation":"CopyFiles Temp/Highrise/LuaBehaviour.Generated.pdb","index":6}
+{"msg":"runNodeAction","annotation":"CopyFiles Temp/Highrise/LuaBehaviour.Generated.pdb","displayName":"Copying LuaBehaviour.Generated.pdb","index":6}
+{"msg":"noderesult","processed_node_count":4,"number_of_nodes_ever_queued":7,"annotation":"CopyFiles Temp/Highrise/LuaBehaviour.Generated.pdb","index":6,"exitcode":0,"outputfile":"Temp\\Highrise\\LuaBehaviour.Generated.pdb"}
+{"msg":"newNode","annotation":"CopyFiles Temp/Highrise/LuaBehaviour.Generated.dll","index":5}
+{"msg":"runNodeAction","annotation":"CopyFiles Temp/Highrise/LuaBehaviour.Generated.dll","displayName":"Copying LuaBehaviour.Generated.dll","index":5}
+{"msg":"noderesult","processed_node_count":5,"number_of_nodes_ever_queued":7,"annotation":"CopyFiles Temp/Highrise/LuaBehaviour.Generated.dll","index":5,"exitcode":0,"outputfile":"Temp\\Highrise\\LuaBehaviour.Generated.dll"}
+{"msg":"newNode","annotation":"ScriptAssemblies","index":7}
+{"msg":"runNodeAction","annotation":"ScriptAssemblies","index":7}

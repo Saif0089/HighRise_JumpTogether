@@ -1,0 +1,98 @@
+/*
+
+    Asset Store
+  
+*/
+
+.store-asset-inspector {
+    flex-grow: 1;
+    margin-left: -14px;
+    margin-right: -6px;
+}
+
+.store-asset-inspector #_headerImage {
+    flex-grow: 1;
+    height: 200px;
+    background-color: var(--unity-colors-tab-background-hover);
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-color: black;
+    
+}
+
+.store-asset-inspector #_installButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-top: auto;
+    font-size: 110%;
+    padding: 2px 16px;
+}
+
+.store-asset-inspector #_installed {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 110%;
+    flex-direction: row;
+    margin-right: 6px;
+    color: greenyellow;
+}
+
+.store-asset-inspector #_installedIcon {
+    --unity-image: url("project://database/Packages/com.pz.studio/Assets/Sprites/Icons/icon_check_square.png");
+    --unity-image-tint-color: greenyellow;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.store-asset-inspector #_progressBar {
+    height: 18px;
+    width: 180px;
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+}
+
+.store-asset-inspector #_progressBar .unity-progress-bar__background {
+    border-radius: 8px;
+}
+
+.store-asset-inspector #_progressBar .unity-progress-bar__progress {
+    border-radius: 6px;
+    background-color: greenyellow;
+}
+
+.store-asset-inspector #_header {
+    flex-direction: row;
+    padding: 8px;
+    width: 100%;
+}
+
+.store-asset-inspector #_headerRight {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.store-asset-inspector #_assetIcon {
+    width: 64px;
+    height: 64px;
+    background-color: var(--unity-colors-tab-background-hover);
+    margin-right: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.store-asset-inspector #_assetName {
+    font-size: 125%;
+    -unity-font-style: bold;
+}
+
+.store-asset-inspector #_assetDescription {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    font-size: 100%;
+}

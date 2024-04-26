@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <VisualElement class="asset-store-upload">
+    <VisualElement class="select-asset">
+      <Label text="Select target Store Asset" class="title"/>
+      <DropdownField name="_assetDropdown" />
+      <VisualElement name="_createAssetInfo" class="create-asset-info">
+        <VisualElement class="create-asset-info-row">
+          <Label text="Name"/>
+          <TextField name="_createAssetName"/>  
+        </VisualElement>
+        <VisualElement class="create-asset-info-row">
+          <Label text="Category"/>
+          <DropdownField name="_createAssetCategory" />
+        </VisualElement>
+      </VisualElement>
+      <VisualElement name="_updateAssetInfo" class="update-asset-info">
+        <Toggle name="_updateAssetImages" text="Update Images"/>
+      </VisualElement>
+      
+    </VisualElement>
+    
+    <VisualElement class="included-files">
+      <Label text="Items to Upload" class="title"/>
+      <TreeView name="_treeView"/>
+    </VisualElement>
+    
+    <VisualElement class="footer">
+      <Button name="_uploadButton" text="Upload"/>
+    </VisualElement>
+  </VisualElement>
+</UXML>
