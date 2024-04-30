@@ -1,35 +1,30 @@
-
 --!SerializeField
-local TimerCooldownCurrent: number = 0
+local Sequence1: GameObject = nil
 --!SerializeField
-local TimerCoolDownTotal: number = 0
+local Sequence1Text: GameObject = nil
 --!SerializeField
-local startTimer: boolean = false
+local Sequence2: GameObject = nil
+--!SerializeField
+local Sequence2Text: GameObject = nil
 
-local random: string = ""
 
-function self:Start()
-    for i = 6,1,-1 
-    do 
-        random = random .. tostring(math.random(0,2))
-    end
-    key = random
-    print(random)
+
+function self:ClientAwake()
+    Timer.Every(20, function() ChangePath() end)
 end
 
+function ChangePath()
 
-function self:ServerUpdate()
-    if(startTimer == false) then
-        TimerCooldownCurrent = TimerCooldownCurrent - Time.deltaTime
-     
-        if(TimerCooldownCurrent <= 0) then
-            startTimer = true
-        
-           
-            TimerCooldownCurrent = TimerCoolDownTotal
-            TimerCooldownCurrent = 5
-            TimerCoolDownTotal = 5
-            startTimer = false
-        end
+    local random = math.random(0,1)
+    if random == 0 then
+        Sequence1:SetActive(true)
+        Sequence1Text:SetActive(true)
+        Sequence2:SetActive(false)
+        Sequence2Text:SetActive(false)
+    else
+        Sequence1:SetActive(false)
+        Sequence1Text:SetActive(false)
+        Sequence2:SetActive(true)
+        Sequence2Text:SetActive(true)
     end
 end

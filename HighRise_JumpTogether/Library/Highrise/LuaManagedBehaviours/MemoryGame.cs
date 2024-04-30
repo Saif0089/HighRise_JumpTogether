@@ -16,38 +16,45 @@ namespace Highrise.Lua.Generated
     [LuaBehaviourScript(_luaScriptAssetGuid)]
     public class MemoryGame : LuaBehaviourThunk
     {
-        const string _luaScriptAssetGuid = "b2e68ca09cd4fd24c9eca6e499afe562";
+        const string _luaScriptAssetGuid = "7d00c7a0e9429ab44aa48db1c6ab68d5";
         public override string ScriptGUID => _luaScriptAssetGuid;
 
-        [SerializeField] private System.Double m_TimerCooldownCurrent;
-        [SerializeField] private System.Double m_TimerCoolDownTotal;
-        [SerializeField] private System.Boolean m_startTimer;
+        [SerializeField] private UnityEngine.GameObject m_Sequence1;
+        [SerializeField] private UnityEngine.GameObject m_Sequence1Text;
+        [SerializeField] private UnityEngine.GameObject m_Sequence2;
+        [SerializeField] private UnityEngine.GameObject m_Sequence2Text;
 
         protected override void CopyToProperties()
         {
             if(_script == null)
                 return;
 
-            if(_properties == null || _properties.Length != 3)
-                _properties = new SerializedPropertyValue[3];                
+            if(_properties == null || _properties.Length != 4)
+                _properties = new SerializedPropertyValue[4];                
 
 
             _properties[0] = new SerializedPropertyValue()
             {
                 Property = _script.GetPropertyAt(0),
-                Value = Internal.LuaGlue.CreatePropertyValue(typeof(System.Double), m_TimerCooldownCurrent)
+                Value = Internal.LuaGlue.CreatePropertyValue(typeof(UnityEngine.GameObject), m_Sequence1)
             };
 
             _properties[1] = new SerializedPropertyValue()
             {
                 Property = _script.GetPropertyAt(1),
-                Value = Internal.LuaGlue.CreatePropertyValue(typeof(System.Double), m_TimerCoolDownTotal)
+                Value = Internal.LuaGlue.CreatePropertyValue(typeof(UnityEngine.GameObject), m_Sequence1Text)
             };
 
             _properties[2] = new SerializedPropertyValue()
             {
                 Property = _script.GetPropertyAt(2),
-                Value = Internal.LuaGlue.CreatePropertyValue(typeof(System.Boolean), m_startTimer)
+                Value = Internal.LuaGlue.CreatePropertyValue(typeof(UnityEngine.GameObject), m_Sequence2)
+            };
+
+            _properties[3] = new SerializedPropertyValue()
+            {
+                Property = _script.GetPropertyAt(3),
+                Value = Internal.LuaGlue.CreatePropertyValue(typeof(UnityEngine.GameObject), m_Sequence2Text)
             };
         }
 
@@ -64,22 +71,29 @@ namespace Highrise.Lua.Generated
             var property0 = _script.GetPropertyAt(0);
             if ((index = FindPropertyIndex(properties, property0.name, property0.TypeCode, 0)) > -1)
             {
-                if (properties[index].Value?.RawValue is System.Double value)
-                    m_TimerCooldownCurrent = value;
+                if (properties[index].Value?.RawValue is UnityEngine.GameObject value)
+                    m_Sequence1 = value;
             }
 
             var property1 = _script.GetPropertyAt(1);
             if ((index = FindPropertyIndex(properties, property1.name, property1.TypeCode, 1)) > -1)
             {
-                if (properties[index].Value?.RawValue is System.Double value)
-                    m_TimerCoolDownTotal = value;
+                if (properties[index].Value?.RawValue is UnityEngine.GameObject value)
+                    m_Sequence1Text = value;
             }
 
             var property2 = _script.GetPropertyAt(2);
             if ((index = FindPropertyIndex(properties, property2.name, property2.TypeCode, 2)) > -1)
             {
-                if (properties[index].Value?.RawValue is System.Boolean value)
-                    m_startTimer = value;
+                if (properties[index].Value?.RawValue is UnityEngine.GameObject value)
+                    m_Sequence2 = value;
+            }
+
+            var property3 = _script.GetPropertyAt(3);
+            if ((index = FindPropertyIndex(properties, property3.name, property3.TypeCode, 3)) > -1)
+            {
+                if (properties[index].Value?.RawValue is UnityEngine.GameObject value)
+                    m_Sequence2Text = value;
             }
         }
     }

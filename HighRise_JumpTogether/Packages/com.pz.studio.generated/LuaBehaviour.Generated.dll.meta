@@ -8,6 +8,8 @@ PluginImporter:
       type: 3}
     Highrise.Lua.Generated.Button: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
       type: 3}
+    Highrise.Lua.Generated.Button2: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
+      type: 3}
     Highrise.Lua.Generated.CharacterMoverScript: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
       type: 3}
     Highrise.Lua.Generated.Detector: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
@@ -16,7 +18,13 @@ PluginImporter:
       type: 3}
     Highrise.Lua.Generated.HighriseCameraController: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
       type: 3}
+    Highrise.Lua.Generated.LeftRight: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
+      type: 3}
+    Highrise.Lua.Generated.LeftRightMovement: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
+      type: 3}
     Highrise.Lua.Generated.MemoryGame: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
+      type: 3}
+    Highrise.Lua.Generated.ModularButton: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
       type: 3}
     Highrise.Lua.Generated.PlayerCharacterController: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
       type: 3}
@@ -25,6 +33,8 @@ PluginImporter:
     Highrise.Lua.Generated.RTSCamera: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
       type: 3}
     Highrise.Lua.Generated.RedBlueFloorManager: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
+      type: 3}
+    Highrise.Lua.Generated.Rotating: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
       type: 3}
     Highrise.Lua.Generated.SceneLoader: {fileID: 2800000, guid: 7b17fa3987cfb1748a297e97f9214051,
       type: 3}

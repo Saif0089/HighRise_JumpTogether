@@ -13,11 +13,13 @@ function self:ClientAwake()
     function self:OnTriggerEnter(collider:Collider)
         print("Triggered")
         
-        OnCollidedRequest:FireServer(position)
-        print("Event Fired")
+        if client.localPlayer == collider.gameObject:GetComponent(Character).player then
+            OnCollidedRequest:FireServer(position)
+            print("Event Fired")
+        end
        
     end
-    OnCollidedResponse:Connect(function(player, position)  print("Response Received From Server  " .. tostring(player.name)) MoveCamera(position)  print(player.character:Teleport(position)) end)
+    OnCollidedResponse:Connect(function(player, position)  print("Response Received From Server  " .. tostring(player.name)) MoveCamera(player, position)  print(player.character:Teleport(position)) end)
    
 end
 
@@ -33,11 +35,14 @@ function self:ServerAwake()
      end)
 end
 
-function MoveCamera(_position)
+function MoveCamera(player,_position)
     if move_camera then
-        print("Move camera attempted")
+        
         local cameraScript = camera:GetComponent("RTSCamera")
-        cameraScript.CenterOn(_position)
+        if client.localPlayer == player.character.gameObject:GetComponent(Character).player then
+            cameraScript.CenterOn(_position)
+        end
+        
     end
 end
 

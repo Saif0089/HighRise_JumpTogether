@@ -18,7 +18,7 @@ local script : LuaScript = nil
 local waypoints = {way_point1,way_point2,way_point3,way_point4}
 
 function self:Start()
-  waypoint_index = 1
+
 end
 
 function self:Update()

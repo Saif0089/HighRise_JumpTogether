@@ -52,7 +52,10 @@ if client then
         collision_exit_request:FireServer()
     end
 end
+function self:OnTriggerEnter(collider: Collider)
+    print("character entered the button")
 
+end
 
 function self:ServerAwake()
     collision_request:Connect(function(player) collision_response:FireAllClients() is_on = true print("Server Received Request") end)
